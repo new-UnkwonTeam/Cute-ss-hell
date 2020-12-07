@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
+
+    public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,22 +18,22 @@ public class Jugador : MonoBehaviour
     {
         if (Input.GetKey("left"))
         {
-            Moviment.Moures(-10, 0);
+            Moviment.Moures(-10, 0, speed);
         }
 
         if (Input.GetKey("right"))
         {
-            Moviment.Moures(10, 0);
+            Moviment.Moures(10, 0, speed);
         }
 
         if (Input.GetKey("up"))
         {
-            Moviment.Moures(0, 10);
+            Moviment.Moures(0, 10, speed);
         }
 
         if (Input.GetKey("down"))
         {
-            Moviment.Moures(0, -10);
+            Moviment.Moures(0, -10, speed);
         }
     }
 }

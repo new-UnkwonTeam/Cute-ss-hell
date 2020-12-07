@@ -19,17 +19,7 @@ public class Moviment : MonoBehaviour {
         
     }
 
-    public static void Moures(int x, int y) {
-        personatge2.transform.position = personatge2.transform.position + new Vector3(x * Time.deltaTime, y * Time.deltaTime, 0);
-    }
-
-    public static void MouresX()
-    {
-        Moures(10, 0);
-    }
-
-    public static void MouresY()
-    {
-        Moures(0, 10);
+    public static void Moures(int x, int y, float speed) {
+        personatge2.transform.position = personatge2.transform.position + new Vector3(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0);
     }
 }
