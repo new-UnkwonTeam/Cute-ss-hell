@@ -25,22 +25,22 @@ public class Jugador : MonoBehaviour
 
         if (Input.GetKey("left"))
         {
-            Moviment.Moures(-10, 0, speed);
+            Moviment.Moures(-10, 0, speed, this.gameObject);
         }
 
         if (Input.GetKey("right"))
         {
-            Moviment.Moures(10, 0, speed);
+            Moviment.Moures(10, 0, speed, this.gameObject);
         }
 
         if (Input.GetKey("up"))
         {
-            Moviment.Moures(0, 10, speed);
+            Moviment.Moures(0, 10, speed, this.gameObject);
         }
 
         if (Input.GetKey("down"))
         {
-            Moviment.Moures(0, -10, speed);
+            Moviment.Moures(0, -10, speed, this.gameObject);
         }
     }
 }
