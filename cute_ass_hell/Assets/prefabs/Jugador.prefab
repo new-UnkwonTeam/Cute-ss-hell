@@ -101,6 +101,7 @@ MonoBehaviour:
   proyectil: {fileID: 6143685181199876212, guid: 4cb19bc5a4ba50343aaa78e9d045e62b,
     type: 3}
   rateFire: 0.1
+  vida: 3
 --- !u!114 &1116096687938580552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +133,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!61 &6531739873653760117
 BoxCollider2D:
@@ -156,7 +157,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0

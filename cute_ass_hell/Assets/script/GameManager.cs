@@ -11,12 +11,12 @@ public class GameManager    : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Es crea l'objecte jugador
+        //Es crean els objectes.
         Enemic enemy = Instantiate(enemic) as Enemic;
         enemy.transform.position = this.transform.position - new Vector3(10, 0, 0);
 
         Pared wall = Instantiate(pared) as Pared;
-        wall.transform.position = this.transform.position - new Vector3(0, 10, 0);
+        wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
 
     }
 

@@ -10,6 +10,8 @@ public class Jugador : MonoBehaviour
     public Proyectil proyectil;
     public float rateFire;
     Vector3 direction = new Vector3(0, (float)-0.5, 0);
+    //vida del Jugador
+    public int vida;
 
     float nextFire;
 
@@ -68,5 +70,27 @@ public class Jugador : MonoBehaviour
             pro.transform.position = this.transform.position + direction;
             pro.direction = direction;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy")) RestarVida(1);
+
+        Debug.Log("El jugador ha colisionat amb "+collision.name);
+    }
+
+    //Resta vida del enemic segons la cantitat introduida per parametre.
+    void RestarVida(int vidaNegativa)
+    {
+        vida -= vidaNegativa;
+
+        //si la vida es menor de 1 el enemic mor.
+        if (vida < 1) morir();
+    }
+
+    //si hi ha alguna animacio al morir es posa en aquest metode
+    void morir()
+    {
+        Destroy(this.gameObject);
     }
 }
