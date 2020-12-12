@@ -12,8 +12,8 @@ public class GameManager    : MonoBehaviour
     void Start()
     {
         //Es crea l'objecte jugador
-        Jugador pesonatge = Instantiate(jugador) as Jugador;
-        Enemic enemmy = Instantiate(enemic) as Enemic;
+        Enemic enemy = Instantiate(enemic) as Enemic;
+        enemy.transform.position = this.transform.position - new Vector3(10, 0, 0);
 
     }
 
