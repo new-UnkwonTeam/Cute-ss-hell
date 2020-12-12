@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class GameManager    : MonoBehaviour
 {
-    //objecte corresponet al prefab del jugador.
-    public Jugador jugador;
+    //objectes que es crean al principi del joc.
     public Enemic enemic;
+    public Pared pared;
 
     // Start is called before the first frame update
     void Start()
     {
         //Es crea l'objecte jugador
-        Jugador pesonatge = Instantiate(jugador) as Jugador;
-        Enemic enemmy = Instantiate(enemic) as Enemic;
+        Enemic enemy = Instantiate(enemic) as Enemic;
+        enemy.transform.position = this.transform.position - new Vector3(10, 0, 0);
+
+        Pared wall = Instantiate(pared) as Pared;
+        wall.transform.position = this.transform.position - new Vector3(0, 10, 0);
 
     }
 

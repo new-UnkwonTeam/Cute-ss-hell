@@ -68,6 +68,9 @@
     <Compile Include="Assets\script\GameManager.cs" />
     <Compile Include="Assets\script\Jugador.cs" />
     <Compile Include="Assets\script\Moviment.cs" />
+    <Compile Include="Assets\script\Pared.cs" />
+    <Compile Include="Assets\script\Proyectil.cs" />
+    <Compile Include="Assets\script\SeguimetnCamara.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
