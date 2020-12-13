@@ -14,11 +14,11 @@ public class Moviment : MonoBehaviour {
      * @pram speed velocitat a la que es moura el element.
      */
     public static void Moures(float x, float y, float speed, GameObject personatge) {
-        //personatge.transform.position += new Vector3(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0);
+        personatge.transform.position += new Vector3(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0);
 
         //personatge.transform.Translate(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0);
 
-        rb = personatge.GetComponent<Rigidbody2D>();
-        rb.AddForce(new Vector3(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0), ForceMode2D.Impulse);
+        //rb = personatge.GetComponent<Rigidbody2D>();
+        //rb.AddForce(new Vector3(speed * x * Time.deltaTime, speed * y * Time.deltaTime, 0), ForceMode2D.Impulse);
     }
 }
