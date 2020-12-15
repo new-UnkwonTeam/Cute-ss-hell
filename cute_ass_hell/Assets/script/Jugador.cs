@@ -72,11 +72,11 @@ public class Jugador : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Enemy")) RestarVida(1);
+        Debug.Log("El jugador ha colisionat amb " + collision.otherCollider.name);
 
-        Debug.Log("El jugador ha colisionat amb "+collision.name);
+        if (collision.otherCollider.CompareTag("Enemy")) RestarVida(1);
     }
 
     //Resta vida del enemic segons la cantitat introduida per parametre.

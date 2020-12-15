@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.3
-  proyectil: {fileID: 6143685181199876212, guid: 4cb19bc5a4ba50343aaa78e9d045e62b,
+  proyectil: {fileID: 307839509444286489, guid: 4cb19bc5a4ba50343aaa78e9d045e62b,
     type: 3}
   rateFire: 0.1
   vida: 3
@@ -157,7 +157,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 1
+  m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
