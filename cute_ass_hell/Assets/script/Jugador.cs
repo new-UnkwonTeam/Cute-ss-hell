@@ -23,20 +23,28 @@ public class Jugador : MonoBehaviour
         rb = this.gameObject.GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         move = Vector3.zero;
 
-        move.x = Input.GetAxis("Horizontal");
-        move.y = Input.GetAxis("Vertical");
-
-        if (Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("up") || Input.GetKey("down"))
+        if (Input.GetKey("left") || Input.GetKey("right"))
         {
-            ultimaDirecio = move;
-            transform.Translate(move * speed * Time.deltaTime);
-            rb.MovePosition(rb.position * speed * move * Time.deltaTime);
+            move.x = Input.GetAxis("Horizontal");
         }
+        else if (Input.GetKey("up") || Input.GetKey("down"))
+        {
+            move.y = Input.GetAxis("Vertical");
+        }
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        ultimaDirecio = move;
+        transform.position += move * speed * Time.deltaTime;
+        rb.MovePosition(rb.position * speed * move * Time.deltaTime);
 
         //al fer clic equerra es disparra un proyectil en la ultima direccio en la que s'ha mogut el proyectil.
         if (Input.GetMouseButton(0) && Time.time > nextFire)
@@ -45,15 +53,17 @@ public class Jugador : MonoBehaviour
 
             Proyectil pro = Instantiate(proyectil);
 
-            if (move.x < 1 && move.y < 1 && move.x > -1 && move.y > -1)
+           
+
+            if (move.x < 2 && move.y < 2 && move.x > -2 && move.y > -2)
             {
                 pro.transform.position = this.transform.position + ultimaDirecio;
                 pro.direction = ultimaDirecio;
             }
             else
             {
-                pro.transform.position = this.transform.position + move;
-                pro.direction = move;
+                pro.transform.position = this.transform.position + move.normalized;
+                pro.direction = move.normalized;
             }
 
         }
