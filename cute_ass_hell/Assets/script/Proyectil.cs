@@ -20,9 +20,9 @@ public class Proyectil : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
+    {
         //en cada update es mou en la direccio marcada al crear el proyectil.
-        Moviment.Moures(direction.x * 10, direction.y * 10, speed, this.gameObject);
+        transform.Translate(direction * speed * Time.deltaTime);
 
         //si el temps limit s'acaba s'elimina el proyectil.
         if (actualTime + (timeToDelete * Time.deltaTime) < Time.time)
