@@ -8,8 +8,6 @@ public class Proyectil : MonoBehaviour
     public float speed;
     //temps abans que s'elimini el proyectil.
     public float timeToDelete;
-    //direccio en la que es moura el proyectil.
-    public Vector3 direction;
     float actualTime;
 
     // Start is called before the first frame update
@@ -22,7 +20,7 @@ public class Proyectil : MonoBehaviour
     void Update()
     {
         //en cada update es mou en la direccio marcada al crear el proyectil.
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(Vector3.down * speed * Time.deltaTime);
 
         //si el temps limit s'acaba s'elimina el proyectil.
         if (actualTime + (timeToDelete * Time.deltaTime) < Time.time)

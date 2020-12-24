@@ -7,66 +7,41 @@ public class Jugador : MonoBehaviour
 {
     //velocitat amb la que es mou el jugador, es determina desde unity.
     public float speed;
-    public Proyectil proyectil;
-    public float rateFire;
-    Vector3 ultimaDirecio = new Vector3(0, -0.7f, 0);
     //vida del Jugador
     public int vida;
 
     Rigidbody2D rb;
     Vector3 move;
-    float nextFire;
+    //Vector3 pos;
+    GameObject spawner;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+
+        spawner = GameObject.Find("Spawner");
+        spawner.transform.position = transform.position + Vector3.down;
     }
 
     private void FixedUpdate()
     {
         move = Vector3.zero;
 
-        if (Input.GetKey("left") || Input.GetKey("right"))
-        {
-            move.x = Input.GetAxis("Horizontal");
-        }
-        else if (Input.GetKey("up") || Input.GetKey("down"))
-        {
-            move.y = Input.GetAxis("Vertical");
-        }
-
-        
+        move.x = Input.GetAxis("Horizontal");
+        move.y = Input.GetAxis("Vertical");
     }
 
     // Update is called once per frame
     void Update()
     {
-        ultimaDirecio = move;
-        transform.position += move * speed * Time.deltaTime;
-        rb.MovePosition(rb.position * speed * move * Time.deltaTime);
+        Vector3 desplazamiento = move * speed;
 
-        //al fer clic equerra es disparra un proyectil en la ultima direccio en la que s'ha mogut el proyectil.
-        if (Input.GetMouseButton(0) && Time.time > nextFire)
-        {
-            nextFire = Time.time + rateFire;
+        transform.Translate(Vector3.up * desplazamiento.y * Time.deltaTime);
+        transform.Translate(Vector3.right * desplazamiento.x * Time.deltaTime);
 
-            Proyectil pro = Instantiate(proyectil);
-
-           
-
-            if (move.x < 2 && move.y < 2 && move.x > -2 && move.y > -2)
-            {
-                pro.transform.position = this.transform.position + ultimaDirecio;
-                pro.direction = ultimaDirecio;
-            }
-            else
-            {
-                pro.transform.position = this.transform.position + move.normalized;
-                pro.direction = move.normalized;
-            }
-
-        }
+        transform.rotation = Quaternion.Euler(move * 1);
+        //transform.eulerAngles = move;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

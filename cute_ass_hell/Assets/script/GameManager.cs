@@ -17,7 +17,6 @@ public class GameManager    : MonoBehaviour
 
         Pared wall = Instantiate(pared) as Pared;
         wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
-
     }
 
     // Update is called once per frame
