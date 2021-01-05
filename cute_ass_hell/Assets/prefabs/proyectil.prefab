@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7726532011905452884}
   - component: {fileID: 7726532011905452885}
-  - component: {fileID: 6143685181199876212}
+  - component: {fileID: 307839509444286489}
   - component: {fileID: 2274728005512642144}
   - component: {fileID: 6047789144776348701}
   m_Layer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7726532011905452886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.003, y: 0.007, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.3, y: 0.6, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6143685181199876212
+--- !u!114 &307839509444286489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,9 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e73876b1a06ad540b0f6f5840cf93cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.9
-  timeToDelete: 1200
-  direction: {x: 0, y: 0, z: 0}
+  speed: 5
+  timeToDelete: 600
 --- !u!50 &2274728005512642144
 Rigidbody2D:
   serializedVersion: 4

@@ -7,66 +7,68 @@ public class Jugador : MonoBehaviour
 {
     //velocitat amb la que es mou el jugador, es determina desde unity.
     public float speed;
-    public Proyectil proyectil;
-    public float rateFire;
-    Vector3 direction = new Vector3(0, (float)-0.5, 0);
+    //vida del Jugador
+    public int vida;
 
-    float nextFire;
+    Vector3 move;
+    //Vector3 pos;
+    GameObject spawner;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawner = GameObject.Find("Spawner");
+        spawner.transform.position = transform.position + Vector3.down;
+    }
+
+    private void FixedUpdate()
+    {
+        move = Vector3.zero;
+        //es modifican la x i la y segons s'apretin les tecles corresponets.
+        move.x = Input.GetAxis("Horizontal");
+        move.y = Input.GetAxis("Vertical");
     }
 
     // Update is called once per frame
     void Update()
+    {   
+        //distancia que es maura.
+        Vector3 desplazamiento = move * speed;
+        //angle en que es maura. es crea aparti de el vector move
+        float agress = Vector3.SignedAngle(move, Vector3.down, new Vector3(1, -1, 0));
+
+        if (desplazamiento.x < 0){
+            desplazamiento.x = -desplazamiento.x;
+            agress = -agress;
+        }
+        if (desplazamiento.y < 0)desplazamiento.y = -desplazamiento.y;
+        
+        //es modifica l'angle en cada update.
+        transform.rotation = Quaternion.Euler(0, 0, agress);
+        transform.Translate(Vector3.down * desplazamiento.y * Time.deltaTime);
+        //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+        if (desplazamiento.y == 0) transform.Translate(Vector3.down * desplazamiento.x * Time.deltaTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("El jugador ha colisionat amb " + collision.otherCollider.name);
 
-        /*
-         * Crida el metode moviment per a moures en cada direccio segons la flecha que s'apreti
-         * Posteriorment el modificare per que sigui amb jostik.
-         * al moures es modifica la direccio actual, per a que sigui la direcci en la que s'ha mogut ya sigui recte o ejn diagonal.
-         */
+        if (collision.otherCollider.CompareTag("Enemy")) RestarVida(1);
+    }
 
-        if (Input.GetKey("left"))
-        {
-            Moviment.Moures(-10, 0, speed, this.gameObject);
+    //Resta vida del enemic segons la cantitat introduida per parametre.
+    void RestarVida(int vidaNegativa)
+    {
+        vida -= vidaNegativa;
 
-            //al modificar la direccio mante la dirreccio en l'eix que no mouria aquesta tecla.
-            direction = new Vector3((float)-0.5, direction.y, 0);
-            //es torna la direccio a l'estat original menos l'eix en que no es mouria el personatge al appretar la telca sempre i quan no sapreti la tecla amb el sentit contrari i si alguna de les tecles de l'altre eix.
-        }else if(!Input.GetKey("right") && (Input.GetKey("up") || Input.GetKey("down"))) direction = new Vector3( 0, direction.y, 0);
+        //si la vida es menor de 1 el enemic mor.
+        if (vida < 1) morir();
+    }
 
-        if (Input.GetKey("right"))
-        {
-            Moviment.Moures(10, 0, speed, this.gameObject);
-
-            direction = new Vector3((float)0.5, direction.y, 0);
-        }
-
-        if (Input.GetKey("up"))
-        {
-            Moviment.Moures(0, 10, speed, this.gameObject);
-
-            direction = new Vector3(direction.x, (float)0.5, 0);
-        }else if(!Input.GetKey("down") && (Input.GetKey("left") || Input.GetKey("right"))) direction = new Vector3(direction.x, 0, 0);
-
-        if (Input.GetKey("down"))
-        {
-            Moviment.Moures(0, -10, speed, this.gameObject);
-
-            direction = new Vector3(direction.x, (float)-0.5, 0);
-        }
-
-        //al fer clic equerra es disparra un proyectil en la ultima direccio en la que s'ha mogut el proyectil.
-        if (Input.GetMouseButton(0) && Time.time > nextFire)
-        {
-            nextFire = Time.time + rateFire;
-
-            Proyectil pro = Instantiate(proyectil) as Proyectil;
-            pro.transform.position = this.transform.position + direction;
-            pro.direction = direction;
-        }
+    //si hi ha alguna animacio al morir es posa en aquest metode
+    void morir()
+    {
+        Destroy(this.gameObject);
     }
 }
