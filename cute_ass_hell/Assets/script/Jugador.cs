@@ -10,7 +10,6 @@ public class Jugador : MonoBehaviour
     //vida del Jugador
     public int vida;
 
-    Rigidbody2D rb;
     Vector3 move;
     //Vector3 pos;
     GameObject spawner;
@@ -18,8 +17,6 @@ public class Jugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = this.gameObject.GetComponent<Rigidbody2D>();
-
         spawner = GameObject.Find("Spawner");
         spawner.transform.position = transform.position + Vector3.down;
     }
@@ -27,21 +24,30 @@ public class Jugador : MonoBehaviour
     private void FixedUpdate()
     {
         move = Vector3.zero;
-
+        //es modifican la x i la y segons s'apretin les tecles corresponets.
         move.x = Input.GetAxis("Horizontal");
         move.y = Input.GetAxis("Vertical");
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        //distancia que es maura.
         Vector3 desplazamiento = move * speed;
+        //angle en que es maura. es crea aparti de el vector move
+        float agress = Vector3.SignedAngle(move, Vector3.down, new Vector3(1, -1, 0));
 
-        transform.Translate(Vector3.up * desplazamiento.y * Time.deltaTime);
-        transform.Translate(Vector3.right * desplazamiento.x * Time.deltaTime);
-
-        transform.rotation = Quaternion.Euler(move * 1);
-        //transform.eulerAngles = move;
+        if (desplazamiento.x < 0){
+            desplazamiento.x = -desplazamiento.x;
+            agress = -agress;
+        }
+        if (desplazamiento.y < 0)desplazamiento.y = -desplazamiento.y;
+        
+        //es modifica l'angle en cada update.
+        transform.rotation = Quaternion.Euler(0, 0, agress);
+        transform.Translate(Vector3.down * desplazamiento.y * Time.deltaTime);
+        //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+        if (desplazamiento.y == 0) transform.Translate(Vector3.down * desplazamiento.x * Time.deltaTime);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

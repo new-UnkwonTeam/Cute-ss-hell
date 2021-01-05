@@ -68,6 +68,7 @@
     <Compile Include="Assets\script\GameManager.cs" />
     <Compile Include="Assets\script\Jugador.cs" />
     <Compile Include="Assets\script\Pared.cs" />
+    <Compile Include="Assets\script\PathFinding.cs" />
     <Compile Include="Assets\script\Proyectil.cs" />
     <Compile Include="Assets\script\SeguimetnCamara.cs" />
     <Compile Include="Assets\script\SpawnerProyectil.cs" />
@@ -681,7 +682,16 @@
       <HintPath>D:/unity/Cute-ss-hell/cute_ass_hell/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{A163F6B5-A5C0-BE74-D761-F1E73A6E0DEE}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{4C6776CF-3EF8-2885-23D1-F9D8B91FFB50}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

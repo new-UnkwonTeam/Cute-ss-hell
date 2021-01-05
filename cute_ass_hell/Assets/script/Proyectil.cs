@@ -9,11 +9,13 @@ public class Proyectil : MonoBehaviour
     //temps abans que s'elimini el proyectil.
     public float timeToDelete;
     float actualTime;
+    Vector3 rotacio;
 
     // Start is called before the first frame update
     void Start()
     {
         actualTime = Time.time;
+        rotacio = transform.rotation.eulerAngles;
     }
 
     // Update is called once per frame

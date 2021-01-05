@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager    : MonoBehaviour
 {
     //objectes que es crean al principi del joc.
+    public Jugador jugador;
     public Enemic enemic;
     public Pared pared;
 
@@ -14,6 +15,8 @@ public class GameManager    : MonoBehaviour
         //Es crean els objectes.
         Enemic enemy = Instantiate(enemic) as Enemic;
         enemy.transform.position = this.transform.position - new Vector3(10, 0, 0);
+        PathFinding path = enemy.gameObject.GetComponent<PathFinding>();
+        path.objetivo = jugador.transform;
 
         Pared wall = Instantiate(pared) as Pared;
         wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
