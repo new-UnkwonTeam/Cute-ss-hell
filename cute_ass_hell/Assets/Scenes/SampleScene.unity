@@ -150,12 +150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44e761058f20b24ba71201159a49b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRadius: 4
+  spawnRadius: 5
   time: 2
   enemics:
   - {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
-  - {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
-  - {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
+  - {fileID: 4368276779617050971, guid: b12cc9ba264e73a4a97bec52d9c7a7d2, type: 3}
+  - {fileID: 953741963800430497, guid: 19e658d8fa92a0a42b9ed818e47775c0, type: 3}
 --- !u!4 &7928982
 Transform:
   m_ObjectHideFlags: 0

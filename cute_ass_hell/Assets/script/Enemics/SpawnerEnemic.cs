@@ -18,7 +18,7 @@ public class SpawnerEnemic : MonoBehaviour
 
     IEnumerator SpawnEnemic()
     {
-        Vector2 spawnPosicio = GameObject.Find("Player").transform.position;
+        Vector2 spawnPosicio = GameObject.Find("Jugador").transform.position;
         spawnPosicio += Random.insideUnitCircle.normalized * spawnRadius;
 
         Instantiate(enemics[Random.Range(0, enemics.Length)], spawnPosicio, Quaternion.identity);
