@@ -13,10 +13,12 @@ public class Jugador : MonoBehaviour
     Vector3 move;
     //Vector3 pos;
     GameObject spawner;
+    public bool guitarra, arpa, bateria, trompeta;
 
     // Start is called before the first frame update
     void Start()
     {
+        arpa = true;
         spawner = GameObject.Find("Spawner");
         spawner.transform.position = transform.position + Vector3.down;
     }

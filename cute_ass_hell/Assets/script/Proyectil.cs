@@ -10,6 +10,7 @@ public class Proyectil : MonoBehaviour
     public float timeToDelete;
     float actualTime;
     Vector3 rotacio;
+    public bool arpa, guitarra;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,18 @@ public class Proyectil : MonoBehaviour
     {
         if (!(collision.CompareTag("Player") || collision.CompareTag("ProyectilPlayer")))
         {
-            Destroy(this.gameObject);
+            if (collision.CompareTag("pared") && arpa)
+            {
+                Debug.Log("arpa");
+                //transform.rotation = Vector3.Reflect(GetComponent<Rigidbody2D>().velocity, collision.GetContacts());
+                transform.rotation = Quaternion.Euler(0, 0, rotacio.z + 250);
+            }
+            else Destroy(this.gameObject);
+
+            if (collision.CompareTag("Enemy") && guitarra)
+            {
+                Debug.Log("guitarra");
+            }else Destroy(this.gameObject);
 
             Debug.Log("colision with " + collision.name);
         }
