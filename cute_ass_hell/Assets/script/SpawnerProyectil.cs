@@ -22,7 +22,19 @@ public class SpawnerProyectil : MonoBehaviour
         { 
             nextFire = Time.time + rateFire;
 
-            disparar(transform.position, transform.rotation);
+            if (this.gameObject.GetComponentInParent<Jugador>().bateria)
+            {
+                Debug.Log("bateria");
+            }
+
+            if (this.gameObject.GetComponentInParent<Jugador>().trompeta)
+            {
+                Debug.Log("tropeta");
+                for (int i=0; i<6; i++)
+                {
+                    disparar(transform.position, transform.rotation );
+                }
+            }else disparar(transform.position, transform.rotation);
         }
     }
 
@@ -34,5 +46,7 @@ public class SpawnerProyectil : MonoBehaviour
         Proyectil pro = Instantiate(proyectil);
         pro.transform.position = position;
         pro.transform.rotation = angle;
+        pro.guitarra = this.gameObject.GetComponentInParent<Jugador>().guitarra;
+        pro.arpa = this.gameObject.GetComponentInParent<Jugador>().arpa;
     }
 }
