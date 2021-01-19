@@ -10,6 +10,7 @@ public class Proyectil : MonoBehaviour
     public float timeToDelete;
     float actualTime;
     Vector3 rotacio;
+    public int dany = 10;
     public bool arpa, guitarra;
 
     // Start is called before the first frame update
@@ -33,24 +34,31 @@ public class Proyectil : MonoBehaviour
     }
 
     //si el proyectil choca contra un objecte que no sigui el jugador o un altre proyectil s'elimina.
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!(collision.CompareTag("Player") || collision.CompareTag("ProyectilPlayer")))
+
+        if (collision.gameObject.CompareTag("pared"))
         {
-            if (collision.CompareTag("pared") && arpa)
+            if (!arpa) Destroy(this.gameObject);
+            else
             {
                 Debug.Log("arpa");
                 //transform.rotation = Vector3.Reflect(GetComponent<Rigidbody2D>().velocity, collision.GetContacts());
-                transform.rotation = Quaternion.Euler(0, 0, rotacio.z + 250);
-            }
-            else Destroy(this.gameObject);
+                //transform.rotation = Quaternion.Euler(0, 0, rotacio.z + 250);
+            } 
+        }
 
-            if (collision.CompareTag("Enemy") && guitarra)
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            if (guitarra)
             {
                 Debug.Log("guitarra");
-            }else Destroy(this.gameObject);
-
-            Debug.Log("colision with " + collision.name);
+            }
+            else Destroy(this.gameObject);
         }
+        Debug.Log("colision with " + collision.gameObject.name);
+        //if (!(collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("ProyectilPlayer")))
+        //{
+        //}
     }
 }

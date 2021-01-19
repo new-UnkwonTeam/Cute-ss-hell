@@ -21,14 +21,14 @@ public class Enemic : MonoBehaviour
 
 
     //Detecta si algo colisiona amb l'enemic.
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {   
         //si la colisio es un proyectil del jugador es resta vida.
-        if (collision.CompareTag("ProyectilPlayer"))
+        if (collision.gameObject.CompareTag("ProyectilPlayer"))
         {
-            RestarVida(1);
+            RestarVida(collision.gameObject.GetComponent<Proyectil>().dany);
 
-            Debug.Log("Enemic hit by" + collision.name);
+            Debug.Log("Enemic hit by" + collision.gameObject.name);
         }
     }
 

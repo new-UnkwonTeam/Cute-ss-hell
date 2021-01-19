@@ -32,8 +32,6 @@ public class SpawnerProyectil : MonoBehaviour
                 Debug.Log("tropeta");
                 for (int i=0; i<6; i++)
                 {
-                    Random rnd = new Random();
-                    
                     disparar(transform.position, transform.rotation );
                 }
             }else disparar(transform.position, transform.rotation);
