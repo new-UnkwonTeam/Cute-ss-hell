@@ -40,12 +40,12 @@ public class Proyectil : MonoBehaviour
         if (collision.gameObject.CompareTag("pared"))
         {
             if (!arpa) Destroy(this.gameObject);
-            else
+            /*else
             {
                 Debug.Log("arpa");
                 //transform.rotation = Vector3.Reflect(GetComponent<Rigidbody2D>().velocity, collision.GetContacts());
                 //transform.rotation = Quaternion.Euler(0, 0, rotacio.z + 250);
-            } 
+            }*/ 
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
@@ -53,12 +53,18 @@ public class Proyectil : MonoBehaviour
             if (guitarra)
             {
                 Debug.Log("guitarra");
+
+                RaycastHit2D areaHits = Physics2D.CircleCast(transform.position - Vector3.down, 3, transform.position - Vector3.down);
+                
+                if (areaHits.collider.CompareTag("Enemy"))
+                {
+                    Vector3 nextEnemy = areaHits.collider.GetComponent("Enemic").transform.position - transform.position;
+
+                    transform.rotation = Quaternion.Euler(0, 0, Vector3.SignedAngle(nextEnemy, Vector3.down * speed * Time.deltaTime, new Vector3(1, -1, 0)));
+                }
             }
             else Destroy(this.gameObject);
         }
         Debug.Log("colision with " + collision.gameObject.name);
-        //if (!(collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("ProyectilPlayer")))
-        //{
-        //}
     }
 }
