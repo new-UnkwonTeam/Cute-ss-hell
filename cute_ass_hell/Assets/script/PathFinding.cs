@@ -23,9 +23,9 @@ public class PathFinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(objetivo.position.x - transform.position.x < 1 && objetivo.position.x -transform.position.x > -1
-            && objetivo.position.y - objetivo.position.y < 1 && objetivo.position.y - objetivo.position.y > -1) {
-            agent.SetDestination(objetivo.position);
-        }
+        //if(objetivo.position.x - transform.position.x < 1 && objetivo.position.x -transform.position.x > -1
+           // && objetivo.position.y - objetivo.position.y < 1 && objetivo.position.y - objetivo.position.y > -1) {
+            //agent.SetDestination(objetivo.position);
+        //}
     }
 }
