@@ -1,0 +1,776 @@
+fileFormatVersion: 2
+guid: 3c0983c336c6e0b4ca0057b96f8b8778
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3447068354574296910
+    second: toxic_shot_0
+  - first:
+      213: -5617690063850669080
+    second: toxic_shot_1
+  - first:
+      213: 5719153524745347008
+    second: toxic_shot_2
+  - first:
+      213: 2226731507731976392
+    second: toxic_shot_3
+  - first:
+      213: -8946361761592027056
+    second: toxic_shot_4
+  - first:
+      213: 3861190322391548622
+    second: toxic_shot_5
+  - first:
+      213: 4176020699077634693
+    second: toxic_shot_6
+  - first:
+      213: 4786744369132927719
+    second: toxic_shot_7
+  - first:
+      213: -3062618090087685909
+    second: toxic_shot_8
+  - first:
+      213: -5195197277588166890
+    second: toxic_shot_9
+  - first:
+      213: 3039972312682981564
+    second: toxic_shot_10
+  - first:
+      213: 5297129377325144236
+    second: toxic_shot_11
+  - first:
+      213: -3943601629142362660
+    second: toxic_shot_12
+  - first:
+      213: 2117041619551587399
+    second: toxic_shot_13
+  - first:
+      213: -9023938922978526778
+    second: toxic_shot_14
+  - first:
+      213: 925929044230574209
+    second: toxic_shot_15
+  - first:
+      213: 1405014553045226392
+    second: toxic_shot_16
+  - first:
+      213: 4533128807257043226
+    second: toxic_shot_17
+  - first:
+      213: 1470855157224672089
+    second: toxic_shot_18
+  - first:
+      213: -1245736715475282713
+    second: toxic_shot_19
+  - first:
+      213: 2727423798118625203
+    second: toxic_shot_20
+  - first:
+      213: -2899372126517675812
+    second: toxic_shot_21
+  - first:
+      213: -8965579042185798847
+    second: toxic_shot_22
+  - first:
+      213: 1505617309271210217
+    second: toxic_shot_23
+  - first:
+      213: 5098234334963223306
+    second: toxic_shot_24
+  - first:
+      213: 6186097259072562216
+    second: toxic_shot_25
+  - first:
+      213: 3696057360603332491
+    second: toxic_shot_26
+  - first:
+      213: -1366158874229023534
+    second: toxic_shot_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toxic_shot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4724e6b76276df20800000000000000
+      internalID: 3447068354574296910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb70f596a4f902b0800000000000000
+      internalID: -5617690063850669080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf9e5254d38e5f40800000000000000
+      internalID: 5719153524745347008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0d8803280f6ee10800000000000000
+      internalID: 2226731507731976392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0585b20b06328d380800000000000000
+      internalID: -8946361761592027056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_5
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec203580424b59530800000000000000
+      internalID: 3861190322391548622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_6
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a633743b434f930800000000000000
+      internalID: 4176020699077634693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_7
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf4c874aeed6240800000000000000
+      internalID: 4786744369132927719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_8
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be063a1d2156f75d0800000000000000
+      internalID: -3062618090087685909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_9
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e743f993f6e7b0800000000000000
+      internalID: -5195197277588166890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_10
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8ed7046b6203a20800000000000000
+      internalID: 3039972312682981564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_11
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca850c07a1f238940800000000000000
+      internalID: 5297129377325144236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_12
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5515f56338549c0800000000000000
+      internalID: -3943601629142362660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_13
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c071ce22e316d10800000000000000
+      internalID: 2117041619551587399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_14
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c93b054c5784c280800000000000000
+      internalID: -9023938922978526778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_15
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18094985f8f89dc00800000000000000
+      internalID: 925929044230574209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_16
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893d38aba4d9f7310800000000000000
+      internalID: 1405014553045226392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_17
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1175a5f1a8e8ee30800000000000000
+      internalID: 4533128807257043226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_18
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b8d6af8f6896410800000000000000
+      internalID: 1470855157224672089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_19
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e41f66be0146bee0800000000000000
+      internalID: -1245736715475282713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_20
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfaece6e71c9d520800000000000000
+      internalID: 2727423798118625203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_21
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8be37996c53c7d0800000000000000
+      internalID: -2899372126517675812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_22
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b14d0ec5dd39380800000000000000
+      internalID: -8965579042185798847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_23
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83ac637f605e410800000000000000
+      internalID: 1505617309271210217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_24
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bce25bd1190c640800000000000000
+      internalID: 5098234334963223306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_25
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824a9098eae69d550800000000000000
+      internalID: 6186097259072562216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_26
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fba3046980b4330800000000000000
+      internalID: 3696057360603332491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_shot_27
+      rect:
+        serializedVersion: 2
+        x: 5049
+        y: 0
+        width: 187.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcd4dafdbd6a0de0800000000000000
+      internalID: -1366158874229023534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

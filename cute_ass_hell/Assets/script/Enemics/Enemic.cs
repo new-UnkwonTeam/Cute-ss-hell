@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemic : MonoBehaviour
 {
+
     //vida del enemic
     public int vida;
 
@@ -16,6 +17,7 @@ public class Enemic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    
         
     }
 

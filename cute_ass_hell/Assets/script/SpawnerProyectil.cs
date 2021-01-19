@@ -25,6 +25,18 @@ public class SpawnerProyectil : MonoBehaviour
             if (this.gameObject.GetComponentInParent<Jugador>().bateria)
             {
                 Debug.Log("bateria");
+
+                RaycastHit2D[] areaHits = Physics2D.CircleCastAll(transform.position - Vector3.down, 3, transform.position - Vector3.down);
+
+                for(int i=0; i<areaHits.Length; i++)
+                {
+                    GameObject hit = areaHits[i].collider.gameObject;
+                    if (hit.CompareTag("Enemy"))
+                    {
+                        //hit.GetComponent("Enemic").vi
+                    }
+                    
+                }
             }
 
             if (this.gameObject.GetComponentInParent<Jugador>().trompeta)
