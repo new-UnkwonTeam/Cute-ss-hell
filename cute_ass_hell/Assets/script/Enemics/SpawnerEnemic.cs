@@ -5,9 +5,9 @@ using UnityEngine;
 public class SpawnerEnemic : MonoBehaviour
 {
     [SerializeField]
-    private float spawnRadius = 7, time = 1.5f;
+    private float spawnRadius = 7, time = 1.5f, enemycounter = 20;
 
-    public GameObject[] enemics;
+    public GameObject[] enemics; 
 
 
     // Start is called before the first frame update
@@ -17,12 +17,17 @@ public class SpawnerEnemic : MonoBehaviour
     }
 
     IEnumerator SpawnEnemic()
+    //Això és un test
     {
-        Vector2 spawnPosicio = GameObject.Find("Jugador").transform.position;
-        spawnPosicio += Random.insideUnitCircle.normalized * spawnRadius;
+        if (enemycounter >= 0) {
+        
+            Vector2 spawnPosicio = GameObject.Find("Jugador").transform.position;
+            spawnPosicio += Random.insideUnitCircle.normalized * spawnRadius;
 
-        Instantiate(enemics[Random.Range(0, enemics.Length)], spawnPosicio, Quaternion.identity);
-        yield return new WaitForSeconds(time);
-        StartCoroutine(SpawnEnemic());
+            Instantiate(enemics[Random.Range(0, enemics.Length)], spawnPosicio, Quaternion.identity);
+            yield return new WaitForSeconds(time);
+            StartCoroutine(SpawnEnemic());
+            enemycounter--;
+        } 
     }
 }
