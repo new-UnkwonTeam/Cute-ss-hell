@@ -583,6 +583,11 @@ PrefabInstance:
     - target: {fileID: 7070897782575704469, guid: 0e2cce72264e1314dbbd8b837d7131b5,
         type: 3}
       propertyPath: guitarra
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070897782575704469, guid: 0e2cce72264e1314dbbd8b837d7131b5,
+        type: 3}
+      propertyPath: bateria
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8970346171900928159, guid: 0e2cce72264e1314dbbd8b837d7131b5,

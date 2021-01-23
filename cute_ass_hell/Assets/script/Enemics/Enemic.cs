@@ -7,6 +7,7 @@ public class Enemic : MonoBehaviour
 
     //vida del enemic
     public int vida;
+    public bool bateria = false;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,11 @@ public class Enemic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        if (bateria)
+        {
+            RestarVida(5);
+            bateria = false;
+        }
         
     }
 
