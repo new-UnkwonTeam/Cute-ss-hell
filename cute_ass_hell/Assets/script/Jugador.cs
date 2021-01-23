@@ -13,6 +13,7 @@ public class Jugador : MonoBehaviour
     Vector3 move;
     Vector3 desplazamiento;
     Rigidbody2D rb;
+    Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta;
 
@@ -39,19 +40,29 @@ public class Jugador : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    { 
         //distancia que es maura.
         desplazamiento = move * speed;
-        //angle en que es maura. es crea aparti de el vector move
-        float agress = Vector3.SignedAngle(move, Vector3.down, new Vector3(1, -1, 0));
 
-        if (desplazamiento.x < 0){
-            agress = -agress;
-        } 
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) {
+            Debug.Log("wasd");
+
+            //angle en que es maura. es crea aparti de el vector move
+            float agress = Vector3.SignedAngle(move, Vector3.down, new Vector3(1, -1, 0));
+
+            if (desplazamiento.x < 0)
+            {
+                agress = -agress;
+            }
+
+            rotacio = Quaternion.Euler(0, 0, agress);
+        }
         
         //es modifica l'angle en cada update.
-        transform.rotation = Quaternion.Euler(0, 0, agress);
-        
+        transform.rotation = rotacio;
+
+        //transform.rotation = Quaternion.Euler(0, 0, agress);
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
