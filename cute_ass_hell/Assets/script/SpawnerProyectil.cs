@@ -24,9 +24,9 @@ public class SpawnerProyectil : MonoBehaviour
 
             if (this.gameObject.GetComponentInParent<Jugador>().bateria)
             {
-                RaycastHit2D[] areaHits = Physics2D.CircleCastAll(transform.position - Vector3.down, 4, transform.position - Vector3.down);
+                RaycastHit2D[] areaHits = Physics2D.CircleCastAll(transform.parent.position, 2, Vector3.down);
 
-                for(int i=0; i<areaHits.Length; i++)
+                for (int i=0; i<areaHits.Length; i++)
                 {
                     GameObject hit = areaHits[i].collider.gameObject;
                     if (hit.CompareTag("Enemy"))
@@ -37,7 +37,7 @@ public class SpawnerProyectil : MonoBehaviour
             }
 
             if (this.gameObject.GetComponentInParent<Jugador>().trompeta)
-            {
+            {   
                 Debug.Log("tropeta");
                 for (int i=0; i<6; i++)
                 {

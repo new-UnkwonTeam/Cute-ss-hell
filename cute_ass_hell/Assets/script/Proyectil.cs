@@ -9,15 +9,15 @@ public class Proyectil : MonoBehaviour
     //temps abans que s'elimini el proyectil.
     public float timeToDelete;
     float actualTime;
-    Vector3 rotacio;
     public int dany = 10;
     public bool arpa, guitarra;
+    public int rebots = 3;
+    public int hitsGuitara = 3;
 
     // Start is called before the first frame update
     void Start()
     {
         actualTime = Time.time;
-        rotacio = transform.rotation.eulerAngles;
     }
 
     // Update is called once per frame
@@ -39,29 +39,39 @@ public class Proyectil : MonoBehaviour
 
         if (collision.gameObject.CompareTag("pared"))
         {
-            if (!arpa) Destroy(this.gameObject);
-            /*else
+            if (arpa && rebots>0)
             {
                 Debug.Log("arpa");
-                //transform.rotation = Vector3.Reflect(GetComponent<Rigidbody2D>().velocity, collision.GetContacts());
-                //transform.rotation = Quaternion.Euler(0, 0, rotacio.z + 250);
-            }*/ 
+                rebots--;
+            }
+            else Destroy(this.gameObject);
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            if (guitarra)
+            if (guitarra && hitsGuitara>0)
             {
                 Debug.Log("guitarra");
 
-                RaycastHit2D areaHits = Physics2D.CircleCast(transform.position - Vector3.down, 3, transform.position - Vector3.down);
-                
-                if (areaHits.collider.CompareTag("Enemy"))
-                {
-                    Vector3 nextEnemy = areaHits.collider.GetComponent("Enemic").transform.position - transform.position;
+                RaycastHit2D[] areaHits = Physics2D.CircleCastAll(transform.position - Vector3.down, 2, transform.position - Vector3.down);
 
-                    transform.rotation = Quaternion.Euler(0, 0, Vector3.SignedAngle(nextEnemy, Vector3.down * speed * Time.deltaTime, new Vector3(1, -1, 0)));
+                bool thereIsNoEnemy = false;
+
+                for (int i = 0; (i < areaHits.Length) && !thereIsNoEnemy; i++)
+                {
+                    if (areaHits[i].collider.CompareTag("Enemy"))
+                    {
+                        Vector3 nextEnemy = areaHits[i].collider.GetComponent<Enemic>().transform.position - transform.position;
+
+                        transform.rotation = Quaternion.Euler(0, 0, Vector3.SignedAngle(nextEnemy, Vector3.down * speed * Time.deltaTime, new Vector3(1, -1, 0)));
+
+                        thereIsNoEnemy = true;
+                        hitsGuitara--;
+                    }
                 }
+
+                if(!thereIsNoEnemy) Destroy(this.gameObject);
+
             }
             else Destroy(this.gameObject);
         }
