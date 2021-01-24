@@ -28,6 +28,7 @@ public class LevelManager : MonoBehaviour
 
     public void canviNivell(int newLevel, Jugador player)
     {
+        player.pause = true;
 
         if (newLevel < 3)
         {
@@ -48,6 +49,7 @@ public class LevelManager : MonoBehaviour
             spawner.enemyCounter = 20;
             spawner.bossIsHere = false;
             spawner.level = actualLevel;
+            player.pause = false;
 
             //es tornan a spawnear enemics, pero del seguent nivell.
             spawner.noMolestar = false;

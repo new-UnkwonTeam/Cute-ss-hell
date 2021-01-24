@@ -18,7 +18,7 @@ public class SpawnerProyectil : MonoBehaviour
     void Update()
     {
         //es disparen les bales apartir del moment en que es fa clic.
-        if (Input.GetKey("space") && Time.time > nextFire)
+        if (Input.GetKey("space") && Time.time > nextFire && !GetComponentInParent<Jugador>().pause)
         { 
             nextFire = Time.time + rateFire;
 

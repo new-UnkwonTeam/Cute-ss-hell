@@ -29,6 +29,7 @@ public class GameManager    : MonoBehaviour
         //Es crean els objectes.
         Jugador player = Instantiate(jugador);
         player.transform.position = this.transform.position;
+        player.pause = false;
         Pared wall = Instantiate(pared);
         wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
 
