@@ -9,6 +9,7 @@ public class GameManager    : MonoBehaviour
     public Enemic enemic;
     public Pared pared;
     public LevelManager levelManager;
+    public static bool mort = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class GameManager    : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (mort) gameOver();
     }
 
     public void play()
@@ -37,5 +38,26 @@ public class GameManager    : MonoBehaviour
         //es canvia el nivell.
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         levelManager.canviNivell(0, jugador);
+    }
+
+    public void gameOver()
+    {
+        mort = false;
+        levelManager.spawner.noMolestar = true;
+
+        //la trancicio de mort.
+
+        deleteAll();
+
+        play();
+    }
+
+    public void deleteAll()
+    {
+        foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
+        {
+            if (go.CompareTag("Enemy") || go.CompareTag("Boss") || go.CompareTag("Moneda") || go.CompareTag("ProyectilPlayer")) Destroy(go);
+        }
+        
     }
 }

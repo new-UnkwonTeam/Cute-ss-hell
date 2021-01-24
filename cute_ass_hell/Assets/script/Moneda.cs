@@ -18,7 +18,10 @@ public class Moneda : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))collision.gameObject.GetComponent<Jugador>().monedes++;
-        Destroy(this.gameObject);
+        if (collision.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Jugador>().monedes++;
+            Destroy(this.gameObject);
+        }
     }
 }
