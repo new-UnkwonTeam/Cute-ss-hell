@@ -53,15 +53,9 @@
     <UnityVersion>2019.4.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\Enemics\Enemic.cs" />
-     <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
-     <Compile Include="Assets\script\GameManager.cs" />
-     <Compile Include="Assets\script\Jugador.cs" />
-     <Compile Include="Assets\script\Pared.cs" />
-     <Compile Include="Assets\script\PathFinding.cs" />
-     <Compile Include="Assets\script\Proyectil.cs" />
-     <Compile Include="Assets\script\SeguimetnCamara.cs" />
-     <Compile Include="Assets\script\SpawnerProyectil.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -71,8 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\script\Enemics\Enemic.cs" />
+    <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
     <Compile Include="Assets\script\GameManager.cs" />
     <Compile Include="Assets\script\Jugador.cs" />
+    <Compile Include="Assets\script\LevelManager.cs" />
+    <Compile Include="Assets\script\Moneda.cs" />
     <Compile Include="Assets\script\Pared.cs" />
     <Compile Include="Assets\script\PathFinding.cs" />
     <Compile Include="Assets\script\Proyectil.cs" />
