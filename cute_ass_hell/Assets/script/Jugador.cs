@@ -16,6 +16,7 @@ public class Jugador : MonoBehaviour
     Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta;
+    public int monedes;
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +71,15 @@ public class Jugador : MonoBehaviour
         Debug.Log("El jugador ha colisionat amb " + collision.otherCollider.name);
 
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss")) RestarVida(1);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Moneda"))
+        {
+            monedes++;
+            Destroy(collision.gameObject);
+        }
     }
 
     //Resta vida del enemic segons la cantitat introduida per parametre.

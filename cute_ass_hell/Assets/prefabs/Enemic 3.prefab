@@ -7,6 +7,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 827351146824645558, guid: 63d0599c9b58c844ba996694af888f7b,
+        type: 3}
+      propertyPath: moneda
+      value: 
+      objectReference: {fileID: 503355535853168113, guid: a9a2e4ac093b59f45987e59d1e6db8d6,
+        type: 3}
     - target: {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b,
         type: 3}
       propertyPath: m_Name
