@@ -8,23 +8,34 @@ public class GameManager    : MonoBehaviour
     public Jugador jugador;
     public Enemic enemic;
     public Pared pared;
+    public LevelManager levelManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Es crean els objectes.
-        Enemic enemy = Instantiate(enemic) as Enemic;
-        enemy.transform.position = this.transform.position - new Vector3(10, 0, 0);
-        PathFinding path = enemy.gameObject.GetComponent<PathFinding>();
-        path.objetivo = jugador.transform;
-
-        Pared wall = Instantiate(pared) as Pared;
-        wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
+        //comenza la partida
+        play();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void play()
+    {
+        //Es crean els objectes.
+        Jugador player = Instantiate(jugador);
+        player.transform.position = this.transform.position;
+        Pared wall = Instantiate(pared);
+        wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
+
+        //la camara segueix al personatge.
+        GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;
+
+        //es canvia el nivell.
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        levelManager.canviNivell(0, jugador);
     }
 }

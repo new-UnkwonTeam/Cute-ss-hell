@@ -69,7 +69,7 @@ public class Jugador : MonoBehaviour
     {
         Debug.Log("El jugador ha colisionat amb " + collision.otherCollider.name);
 
-        if (collision.gameObject.CompareTag("Enemy")) RestarVida(1);
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss")) RestarVida(1);
     }
 
     //Resta vida del enemic segons la cantitat introduida per parametre.

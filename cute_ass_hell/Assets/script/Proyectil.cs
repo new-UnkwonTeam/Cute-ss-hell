@@ -47,7 +47,7 @@ public class Proyectil : MonoBehaviour
             else Destroy(this.gameObject);
         }
 
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss"))
         {
             if (guitarra && hitsGuitara>0)
             {
@@ -55,22 +55,22 @@ public class Proyectil : MonoBehaviour
 
                 RaycastHit2D[] areaHits = Physics2D.CircleCastAll(transform.position - Vector3.down, 2, transform.position - Vector3.down);
 
-                bool thereIsNoEnemy = false;
+                bool thereIsNoEnemy = true;
 
-                for (int i = 0; (i < areaHits.Length) && !thereIsNoEnemy; i++)
+                for (int i = 0; (i < areaHits.Length) && thereIsNoEnemy; i++)
                 {
-                    if (areaHits[i].collider.CompareTag("Enemy"))
+                    if (areaHits[i].collider.CompareTag("Enemy") || areaHits[i].collider.CompareTag("Boss"))
                     {
                         Vector3 nextEnemy = areaHits[i].collider.GetComponent<Enemic>().transform.position - transform.position;
 
                         transform.rotation = Quaternion.Euler(0, 0, Vector3.SignedAngle(nextEnemy, Vector3.down * speed * Time.deltaTime, new Vector3(1, -1, 0)));
 
-                        thereIsNoEnemy = true;
+                        thereIsNoEnemy = false;
                         hitsGuitara--;
                     }
                 }
 
-                if(!thereIsNoEnemy) Destroy(this.gameObject);
+                if(thereIsNoEnemy) Destroy(this.gameObject);
 
             }
             else Destroy(this.gameObject);
