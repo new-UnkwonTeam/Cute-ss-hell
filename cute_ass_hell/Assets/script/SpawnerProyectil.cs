@@ -50,3 +50,4 @@ public class SpawnerProyectil : MonoBehaviour
         pro.arpa = this.gameObject.GetComponentInParent<Jugador>().arpa;
     }
 }
+    
