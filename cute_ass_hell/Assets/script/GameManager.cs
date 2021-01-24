@@ -10,10 +10,13 @@ public class GameManager    : MonoBehaviour
     public Pared pared;
     public LevelManager levelManager;
     public static bool mort = false;
+    public GameObject panelGameOver;
 
     // Start is called before the first frame update
     void Start()
     {
+        panelGameOver.gameObject.SetActive(false);
+
         //comenza la partida
         play();
     }
@@ -36,8 +39,7 @@ public class GameManager    : MonoBehaviour
         //la camara segueix al personatge.
         GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;
 
-        //es canvia el nivell.
-        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        //es canvia el nivell
         levelManager.canviNivell(0, jugador);
     }
 
@@ -45,10 +47,10 @@ public class GameManager    : MonoBehaviour
     {
         mort = false;
         levelManager.spawner.noMolestar = true;
-
-        //la trancicio de mort.
-
         deleteAll();
+
+        //menu gameOver.
+        panelGameOver.SetActive(true);
 
         play();
     }
