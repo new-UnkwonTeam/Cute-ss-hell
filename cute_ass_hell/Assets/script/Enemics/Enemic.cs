@@ -51,6 +51,8 @@ public class Enemic : MonoBehaviour
     //si hi ha alguna animacio al morir es posa en aquest metode
     void morir()
     {
+        if (this.CompareTag("Enemy")) GameObject.Find("LevelManager").GetComponent<LevelManager>().deathEnemy++;
+        else GameObject.Find("LevelManager").GetComponent<LevelManager>().deathBoss = true;
         Destroy(this.gameObject);
     }
 }

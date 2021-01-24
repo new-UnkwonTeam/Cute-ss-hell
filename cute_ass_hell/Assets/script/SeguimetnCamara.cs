@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SeguimetnCamara : MonoBehaviour
 {
-    public GameObject jugador;
+    public Jugador jugador;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +16,6 @@ public class SeguimetnCamara : MonoBehaviour
     void Update()
     {
         //fa la camara seguir al jugador de forma constant.
-        transform.position =new Vector3(jugador.transform.position.x, jugador.transform.position.y, -10); 
+        if(jugador != null) transform.position =new Vector3(jugador.transform.position.x, jugador.transform.position.y, -10); 
     }
 }

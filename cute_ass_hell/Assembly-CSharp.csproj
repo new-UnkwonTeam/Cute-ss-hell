@@ -68,6 +68,7 @@
     <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
     <Compile Include="Assets\script\GameManager.cs" />
     <Compile Include="Assets\script\Jugador.cs" />
+    <Compile Include="Assets\script\LevelManager.cs" />
     <Compile Include="Assets\script\Pared.cs" />
     <Compile Include="Assets\script\PathFinding.cs" />
     <Compile Include="Assets\script\Proyectil.cs" />
