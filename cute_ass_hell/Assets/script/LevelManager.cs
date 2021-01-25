@@ -11,13 +11,13 @@ public class LevelManager : MonoBehaviour
     public Jugador jugador;
     public GameObject pantallaNivell;
     private string[] titolsNivell;
-    public float timePantallaNivell = 5f;
+    public float timePantallaNivell;
 
     // Start is called before the first frame update
     void Start()
     {
         pantallaNivell.SetActive(false);
-        titolsNivell = new string[] { "NIVELL 1: AUN SIN NOMBRE", "NIVELL 2: EL PANTA", "NIVELL 3: EL LLAC CONGELAT" };
+        titolsNivell = new string[] { "NIVELL 1: THE MADNESS", "NIVELL 2: EL PANTA", "NIVELL 3: EL LLAC CONGELAT" };
         spawner = GameObject.Find("SpawnerEnemic").GetComponent<SpawnerEnemic>();
     }
 
@@ -44,8 +44,10 @@ public class LevelManager : MonoBehaviour
             Debug.Log("Level: " + (actualLevel + 1));
 
             //pantalla de trancicio
-            pantallaNivell.GetComponentInChildren<Text>().text = titolsNivell[actualLevel];
+            Debug.Log("ESTO TENDRIA QUE SER UNA PANTALLA DE CARGA");
             pantallaNivell.SetActive(true);
+            Debug.Log("pantalla" + pantallaNivell.activeSelf);
+            pantallaNivell.GetComponentInChildren<Text>().text = titolsNivell[actualLevel];
 
             //es reposiciona al jugador.
             jugador = player;
@@ -53,6 +55,7 @@ public class LevelManager : MonoBehaviour
             spawner.jugador = jugador;
 
             //es reseteijen els contadors d'enemics.
+            deleteAll();
             deathEnemy = 0;
             deathBoss = false;
             spawner.enemyCounter = 20;
@@ -61,7 +64,8 @@ public class LevelManager : MonoBehaviour
 
             waiter(timePantallaNivell);
             pantallaNivell.SetActive(false);
-            player.pause = false;
+            Debug.Log("pantalla" + pantallaNivell.activeSelf);
+            jugador.pause = false;
 
             //es tornan a spawnear enemics, pero del seguent nivell.
             spawner.noMolestar = false;
@@ -76,6 +80,14 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator waiter(float time)
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSecondsRealtime(time);
+    }
+
+    public void deleteAll()
+    {
+        foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
+        {
+            if (go.CompareTag("Moneda") || go.CompareTag("ProyectilPlayer")) Destroy(go);
+        }
     }
 }

@@ -69,6 +69,7 @@
     <Compile Include="Assets\script\GameManager.cs" />
     <Compile Include="Assets\script\Jugador.cs" />
     <Compile Include="Assets\script\LevelManager.cs" />
+    <Compile Include="Assets\script\MenuPrincipal.cs" />
     <Compile Include="Assets\script\Moneda.cs" />
     <Compile Include="Assets\script\Pared.cs" />
     <Compile Include="Assets\script\PathFinding.cs" />

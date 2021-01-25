@@ -33,6 +33,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.77254903
       objectReference: {fileID: 0}
+    - target: {fileID: 5871172117430895917, guid: 63d0599c9b58c844ba996694af888f7b,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7536070516986721690, guid: 63d0599c9b58c844ba996694af888f7b,
         type: 3}
       propertyPath: m_BodyType

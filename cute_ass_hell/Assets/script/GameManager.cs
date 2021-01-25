@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager    : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class GameManager    : MonoBehaviour
         //Es crean els objectes.
         Jugador player = Instantiate(jugador);
         player.transform.position = this.transform.position;
-        player.pause = false;
+        player.pause = true;
         Pared wall = Instantiate(pared);
         wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
 
@@ -40,7 +41,7 @@ public class GameManager    : MonoBehaviour
         GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;
 
         //es canvia el nivell
-        levelManager.canviNivell(0, jugador);
+        levelManager.canviNivell(0, player);
     }
 
     public void gameOver()
@@ -50,22 +51,11 @@ public class GameManager    : MonoBehaviour
 
         //menu gameOver.
         panelGameOver.SetActive(true);
-
-        deleteAll();
     }
 
-    public void resetRun()
+    public void menu()
     {
-        panelGameOver.SetActive(false);
-        play();
-    }
-
-    public void deleteAll()
-    {
-        foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
-        {
-            if (go.CompareTag("Enemy") || go.CompareTag("Boss") || go.CompareTag("Moneda") || go.CompareTag("ProyectilPlayer")) Destroy(go);
-        }
-        
+        Debug.Log("menu");
+        SceneManager.LoadScene("MenuScene");
     }
 }
