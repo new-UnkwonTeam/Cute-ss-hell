@@ -94,6 +94,7 @@ public class Jugador : MonoBehaviour
     //si hi ha alguna animacio al morir es posa en aquest metode
     void morir()
     {
+        pause = true;
         GameManager.mort = true;
         Destroy(this.gameObject);
     }

@@ -47,11 +47,16 @@ public class GameManager    : MonoBehaviour
     {
         mort = false;
         levelManager.spawner.noMolestar = true;
-        deleteAll();
 
         //menu gameOver.
         panelGameOver.SetActive(true);
 
+        deleteAll();
+    }
+
+    public void resetRun()
+    {
+        panelGameOver.SetActive(false);
         play();
     }
 
