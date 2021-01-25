@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Habilitats\Foc\Ability.cs" />
     <Compile Include="Assets\Habilitats\Foc\SpawnerAbility.cs" />
+    <Compile Include="Assets\SpawnerAbilitat.cs" />
     <Compile Include="Assets\script\Enemics\Enemic.cs" />
     <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
     <Compile Include="Assets\script\GameManager.cs" />

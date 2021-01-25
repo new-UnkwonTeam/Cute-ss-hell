@@ -20,8 +20,9 @@ public class SpawnerAbility : MonoBehaviour
     void Update()
     {
         //es disparen les bales apartir del moment en que es fa clic.
-        if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+        if (Input.GetKey(KeyCode.Alpha0) && Time.time > nextFire)
         {
+            Debug.Log("Putes habilitats");
             disparo_ac.Play("Base Layer.disparo_loop");
             nextFire = Time.time + rateFire;
 
