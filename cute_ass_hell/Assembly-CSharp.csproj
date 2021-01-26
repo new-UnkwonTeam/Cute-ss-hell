@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\script\Enemics\Enemic.cs" />
+     <Compile Include="Assets\script\Enemics\EnemyFollow.cs" />
      <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
      <Compile Include="Assets\script\GameManager.cs" />
      <Compile Include="Assets\script\Jugador.cs" />
