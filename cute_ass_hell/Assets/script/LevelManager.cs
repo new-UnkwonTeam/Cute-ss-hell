@@ -62,7 +62,12 @@ public class LevelManager : MonoBehaviour
             spawner.bossIsHere = false;
             spawner.level = actualLevel;
 
-            waiter(timePantallaNivell);
+            Debug.Log("epera");
+            float temps = 0;
+            while (Time.time > temps)
+            {
+                temps = Time.deltaTime + timePantallaNivell;
+            }
             pantallaNivell.SetActive(false);
             Debug.Log("pantalla" + pantallaNivell.activeSelf);
             jugador.pause = false;
@@ -78,9 +83,19 @@ public class LevelManager : MonoBehaviour
         Debug.Log("I-i-i eso es todo amigos");
     }
 
+    public void wait(float time)
+    {
+        Debug.Log("epera");
+        float temps = 0;
+        while(Time.time > temps)
+        {
+            temps = Time.time + time;
+        }
+    }
     IEnumerator waiter(float time)
     {
-        yield return new WaitForSecondsRealtime(time);
+        Debug.Log("epera");
+        yield return new WaitForSecondsRealtime(time * Time.deltaTime);
     }
 
     public void deleteAll()

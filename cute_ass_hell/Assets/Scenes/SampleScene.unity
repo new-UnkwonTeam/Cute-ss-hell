@@ -566,7 +566,7 @@ MonoBehaviour:
   deathBoss: 0
   jugador: {fileID: 0}
   pantallaNivell: {fileID: 1412030114}
-  timePantallaNivell: 3.4028235e+38
+  timePantallaNivell: 5
 --- !u!4 &622389259
 Transform:
   m_ObjectHideFlags: 0

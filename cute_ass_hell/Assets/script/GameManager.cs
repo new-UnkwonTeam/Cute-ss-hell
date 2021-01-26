@@ -7,7 +7,6 @@ public class GameManager    : MonoBehaviour
 {
     //objectes que es crean al principi del joc.
     public Jugador jugador;
-    public Enemic enemic;
     public Pared pared;
     public LevelManager levelManager;
     public static bool mort = false;
