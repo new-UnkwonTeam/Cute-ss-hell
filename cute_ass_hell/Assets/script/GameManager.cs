@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager    : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager    : MonoBehaviour
     public LevelManager levelManager;
     public static bool mort = false;
     public GameObject panelGameOver;
+    public Button buttonGameOver; 
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,11 @@ public class GameManager    : MonoBehaviour
 
         //comenza la partida
         play();
+
+        buttonGameOver.GetComponent<Button>().onClick.AddListener(() => {
+            Debug.Log("play");
+            SceneManager.LoadScene("MenuScene");
+        });
     }
 
     // Update is called once per frame

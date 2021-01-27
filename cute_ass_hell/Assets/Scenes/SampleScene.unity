@@ -1130,6 +1130,7 @@ MonoBehaviour:
   pared: {fileID: 986115111034790972, guid: 7c58782f725ec1e499632db1bb01fab7, type: 3}
   levelManager: {fileID: 622389258}
   panelGameOver: {fileID: 1093239250}
+  buttonGameOver: {fileID: 926942763}
 --- !u!4 &1212644859
 Transform:
   m_ObjectHideFlags: 0
