@@ -12,6 +12,6 @@ public class MenuManager : MonoBehaviour
 
     public void exit(string scene)
     {
-        SceneManager.A;
+        Application.Quit();
     }
 }
