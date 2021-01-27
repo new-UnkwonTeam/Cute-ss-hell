@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107343979}
   - component: {fileID: 107343980}
+  - component: {fileID: 270576795158736683}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -46,6 +47,32 @@ MonoBehaviour:
   proyectil: {fileID: 307839509444286489, guid: 4cb19bc5a4ba50343aaa78e9d045e62b,
     type: 3}
   rateFire: 0.25
+--- !u!114 &270576795158736683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107343978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c1ece4898954744a34138c54934353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disparo_ac: {fileID: 5003420063864286787, guid: 707dd0407c0057047885312f8444462b,
+    type: 3}
+  ice_shot_ac: {fileID: -8678760563560599487, guid: 413d3ca12d461fd41946234f40f6be22,
+    type: 3}
+  toxic_shot_ac: {fileID: 5654592338959167658, guid: 3e196d969c1806c458baec95b1579d1a,
+    type: 3}
+  heal_AC: {fileID: 0}
+  disparo: {fileID: -2749161550790243301, guid: 707dd0407c0057047885312f8444462b,
+    type: 3}
+  ice_shot: {fileID: -6295402189718540039, guid: 413d3ca12d461fd41946234f40f6be22,
+    type: 3}
+  toxic_shot: {fileID: -5913125264157459077, guid: 3e196d969c1806c458baec95b1579d1a,
+    type: 3}
+  rateFire: 2
 --- !u!1 &8970346171900928159
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,6 +176,7 @@ MonoBehaviour:
   arpa: 0
   bateria: 0
   trompeta: 0
+  monedes: 0
 --- !u!50 &6276475565876667061
 Rigidbody2D:
   serializedVersion: 4

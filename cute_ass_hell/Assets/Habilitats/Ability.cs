@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Ability : MonoBehaviour
 {
-    //Això és una puta prova
     public float speed;
     public float timeToDelete;
     float actualTime;
