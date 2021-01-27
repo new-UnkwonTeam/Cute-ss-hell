@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 329639880799140175, guid: 63d0599c9b58c844ba996694af888f7b,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 827351146824645558, guid: 63d0599c9b58c844ba996694af888f7b,
         type: 3}
       propertyPath: moneda

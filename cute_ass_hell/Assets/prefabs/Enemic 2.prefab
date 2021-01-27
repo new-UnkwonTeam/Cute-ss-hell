@@ -17,6 +17,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2604969074711450473, guid: 6e43e62190abf3144825af14ab43b984,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3156741141335298448, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
       propertyPath: moneda
