@@ -13,7 +13,7 @@ public class Jugador : MonoBehaviour
     Vector3 move;
     Vector3 desplazamiento;
     Rigidbody2D rb;
-    Quaternion rotacio;
+    //Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta;
     public int monedes;
@@ -56,11 +56,11 @@ public class Jugador : MonoBehaviour
                 agress = -agress;
             }
 
-            rotacio = Quaternion.Euler(0, 0, agress);
+            //rotacio = Quaternion.Euler(0, 0, agress);
         }
         
         //es modifica l'angle en cada update.
-        transform.rotation = rotacio;
+        //transform.rotation = rotacio;
 
         //transform.rotation = Quaternion.Euler(0, 0, agress);
 
