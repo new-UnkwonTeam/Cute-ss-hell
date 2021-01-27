@@ -49,7 +49,7 @@ public class GameManager    : MonoBehaviour
         levelManager.spawner.noMolestar = true;
 
         //menu gameOver.
-        panelGameOver.SetActive(true);
+        panelGameOver.gameObject.SetActive(true);
     }
 
     public void menu()

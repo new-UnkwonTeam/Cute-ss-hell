@@ -12,11 +12,13 @@ public class LevelManager : MonoBehaviour
     public GameObject pantallaNivell;
     private string[] titolsNivell;
     public float timePantallaNivell;
+    public GameObject pantallaCredits;
 
     // Start is called before the first frame update
     void Start()
     {
-        pantallaNivell.SetActive(false);
+        pantallaNivell.gameObject.SetActive(false);
+        pantallaCredits.gameObject.SetActive(false);
         titolsNivell = new string[] { "NIVELL 1: THE MADNESS", "NIVELL 2: EL PANTA", "NIVELL 3: EL LLAC CONGELAT" };
         spawner = GameObject.Find("SpawnerEnemic").GetComponent<SpawnerEnemic>();
     }
@@ -62,13 +64,12 @@ public class LevelManager : MonoBehaviour
             spawner.bossIsHere = false;
             spawner.level = actualLevel;
 
-            Debug.Log("epera");
-            float temps = 0;
-            while (Time.time > temps)
+            /*float temps = Time.deltaTime + timePantallaNivell;
+            while (Time.deltaTime > temps)
             {
-                temps = Time.deltaTime + timePantallaNivell;
-            }
-            pantallaNivell.SetActive(false);
+                Debug.Log("epera");
+            }*/
+            pantallaNivell.gameObject.SetActive(false);
             Debug.Log("pantalla" + pantallaNivell.activeSelf);
             jugador.pause = false;
 
@@ -81,6 +82,8 @@ public class LevelManager : MonoBehaviour
     public void fiDeRun()
     {
         Debug.Log("I-i-i eso es todo amigos");
+        pantallaCredits.SetActive(true);
+        GameObject.Find("GameManager").GetComponent<GameManager>().menu();
     }
 
     public void wait(float time)
