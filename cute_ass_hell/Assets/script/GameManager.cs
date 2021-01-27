@@ -28,8 +28,6 @@ public class GameManager    : MonoBehaviour
         //Es crean els objectes.
         Jugador player = Instantiate(jugador);
         player.transform.position = this.transform.position;
-        Pared wall = Instantiate(pared);
-        wall.transform.position = this.transform.position - new Vector3(0, -5, 0);
 
         //la camara segueix al personatge.
         GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;
