@@ -1,0 +1,1127 @@
+fileFormatVersion: 2
+guid: a7747a01afb837b4d8ae511f2150926b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3964301709350039864
+    second: anim_fireball_0
+  - first:
+      213: -5990271034326715757
+    second: anim_fireball_1
+  - first:
+      213: -7866476068221560201
+    second: anim_fireball_2
+  - first:
+      213: -2783314059561816226
+    second: anim_fireball_3
+  - first:
+      213: 8226391829746966821
+    second: anim_fireball_4
+  - first:
+      213: 7722421218638284799
+    second: anim_fireball_5
+  - first:
+      213: 2325633125402327747
+    second: anim_fireball_6
+  - first:
+      213: -5332393990035128286
+    second: anim_fireball_7
+  - first:
+      213: -6152253235063411159
+    second: anim_fireball_8
+  - first:
+      213: 1941201774674822711
+    second: anim_fireball_9
+  - first:
+      213: -1596876359392047198
+    second: anim_fireball_10
+  - first:
+      213: 3047024937017674644
+    second: anim_fireball_11
+  - first:
+      213: 775690553101747722
+    second: anim_fireball_12
+  - first:
+      213: 3680817384124616173
+    second: anim_fireball_13
+  - first:
+      213: -7642848022089067767
+    second: anim_fireball_14
+  - first:
+      213: 4057597494313806834
+    second: anim_fireball_15
+  - first:
+      213: -7845145723908288847
+    second: anim_fireball_16
+  - first:
+      213: 8517275611146963752
+    second: anim_fireball_17
+  - first:
+      213: 728069518111522590
+    second: anim_fireball_18
+  - first:
+      213: -8550124242293803021
+    second: anim_fireball_19
+  - first:
+      213: -4153697885769165462
+    second: anim_fireball_20
+  - first:
+      213: 3090371045992445107
+    second: anim_fireball_21
+  - first:
+      213: -6216007732976817139
+    second: anim_fireball_22
+  - first:
+      213: -7748102244776791696
+    second: anim_fireball_23
+  - first:
+      213: -7968190051320721570
+    second: anim_fireball_24
+  - first:
+      213: 3180114749708830141
+    second: anim_fireball_25
+  - first:
+      213: 3192654348854612
+    second: anim_fireball_26
+  - first:
+      213: 8201018315464803965
+    second: anim_fireball_27
+  - first:
+      213: 6650810277490495273
+    second: anim_fireball_28
+  - first:
+      213: -7750671801789696322
+    second: anim_fireball_29
+  - first:
+      213: 7700730314196003040
+    second: anim_fireball_30
+  - first:
+      213: 2216249297830052928
+    second: anim_fireball_31
+  - first:
+      213: -8865386059923600706
+    second: anim_fireball_32
+  - first:
+      213: -8300742896558374468
+    second: anim_fireball_33
+  - first:
+      213: -7985503738688317607
+    second: anim_fireball_34
+  - first:
+      213: -1366888398059561258
+    second: anim_fireball_35
+  - first:
+      213: 6134970231758533156
+    second: anim_fireball_36
+  - first:
+      213: 7449207263451395686
+    second: anim_fireball_37
+  - first:
+      213: 5970064259935137290
+    second: anim_fireball_38
+  - first:
+      213: 2807816489177570367
+    second: anim_fireball_39
+  - first:
+      213: -7578490648882693119
+    second: anim_fireball_40
+  - first:
+      213: 7385863933811164369
+    second: anim_fireball_41
+  - first:
+      213: 2354559943195468564
+    second: anim_fireball_42
+  - first:
+      213: -2167423612962029220
+    second: anim_fireball_43
+  - first:
+      213: -1618011548577321276
+    second: anim_fireball_44
+  - first:
+      213: 2437350620212720544
+    second: anim_fireball_45
+  - first:
+      213: -1911747313571025313
+    second: anim_fireball_46
+  - first:
+      213: -4790381330040999948
+    second: anim_fireball_47
+  - first:
+      213: 121025690452814583
+    second: anim_fireball_48
+  - first:
+      213: -9163850849388621090
+    second: anim_fireball_49
+  - first:
+      213: -1322938812653092679
+    second: anim_fireball_50
+  - first:
+      213: -9104595992010355162
+    second: anim_fireball_51
+  - first:
+      213: -6304378071256093791
+    second: anim_fireball_52
+  - first:
+      213: -6335613936157007058
+    second: anim_fireball_53
+  - first:
+      213: -4187195087666045017
+    second: anim_fireball_54
+  - first:
+      213: 8198217035328203398
+    second: anim_fireball_55
+  - first:
+      213: -149534400566019685
+    second: anim_fireball_56
+  - first:
+      213: 1265470939789530855
+    second: anim_fireball_57
+  - first:
+      213: -713547993149032751
+    second: anim_fireball_58
+  - first:
+      213: -3720208734639916584
+    second: anim_fireball_59
+  - first:
+      213: -3539346920819994322
+    second: anim_fireball_60
+  - first:
+      213: -7188473262112181644
+    second: anim_fireball_61
+  - first:
+      213: 8665560503012455150
+    second: anim_fireball_62
+  - first:
+      213: -4480961467391884229
+    second: anim_fireball_63
+  - first:
+      213: -6423342816524859861
+    second: anim_fireball_64
+  - first:
+      213: -7313695223984068461
+    second: anim_fireball_65
+  - first:
+      213: -5451119912609806755
+    second: anim_fireball_66
+  - first:
+      213: 8694246118071602978
+    second: anim_fireball_67
+  - first:
+      213: 3926396123363926235
+    second: anim_fireball_68
+  - first:
+      213: 3605825224070802987
+    second: anim_fireball_69
+  - first:
+      213: 5651306246501201717
+    second: anim_fireball_70
+  - first:
+      213: 8107437055197474040
+    second: anim_fireball_71
+  - first:
+      213: 4877071689891172838
+    second: anim_fireball_72
+  - first:
+      213: 722012179194014743
+    second: anim_fireball_73
+  - first:
+      213: -8269776077762955639
+    second: anim_fireball_74
+  - first:
+      213: 7356041532220930430
+    second: anim_fireball_75
+  - first:
+      213: -1407417992634707208
+    second: anim_fireball_76
+  - first:
+      213: -1231073158046166144
+    second: anim_fireball_77
+  - first:
+      213: 4201952997462934351
+    second: anim_fireball_78
+  - first:
+      213: -2119122311512457279
+    second: anim_fireball_79
+  - first:
+      213: 1164815529561287063
+    second: anim_fireball_80
+  - first:
+      213: -8158788859088382037
+    second: anim_fireball_81
+  - first:
+      213: 8587007393187930844
+    second: anim_fireball_82
+  - first:
+      213: -3562091686000218540
+    second: anim_fireball_83
+  - first:
+      213: -95641811148094926
+    second: anim_fireball_84
+  - first:
+      213: 239573509980149234
+    second: anim_fireball_85
+  - first:
+      213: 1735234670499354733
+    second: anim_fireball_86
+  - first:
+      213: 4428649558879205925
+    second: anim_fireball_87
+  - first:
+      213: 7019298687282060870
+    second: anim_fireball_88
+  - first:
+      213: -6997329054501766170
+    second: anim_fireball_89
+  - first:
+      213: -6087275048899059977
+    second: anim_fireball_90
+  - first:
+      213: 7809635915546449102
+    second: anim_fireball_91
+  - first:
+      213: -677833585004553954
+    second: anim_fireball_92
+  - first:
+      213: 6464007340701825556
+    second: anim_fireball_93
+  - first:
+      213: 8598368183588287101
+    second: anim_fireball_94
+  - first:
+      213: 5501587851315316628
+    second: anim_fireball_95
+  - first:
+      213: -6116720923152543794
+    second: anim_fireball_96
+  - first:
+      213: -6495238306078521233
+    second: anim_fireball_97
+  - first:
+      213: -929611148024286802
+    second: anim_fireball_98
+  - first:
+      213: -6431312180199764535
+    second: anim_fireball_99
+  - first:
+      213: -1522847860657566304
+    second: anim_fireball_100
+  - first:
+      213: 4277232348446256696
+    second: anim_fireball_101
+  - first:
+      213: 4955746498474908121
+    second: anim_fireball_102
+  - first:
+      213: 2023738757836599083
+    second: anim_fireball_103
+  - first:
+      213: -7246229527777936314
+    second: anim_fireball_104
+  - first:
+      213: 6841412971740171088
+    second: anim_fireball_105
+  - first:
+      213: -8161177663507179509
+    second: anim_fireball_106
+  - first:
+      213: -5961965036524180011
+    second: anim_fireball_107
+  - first:
+      213: -6212653155354752839
+    second: anim_fireball_108
+  - first:
+      213: -941768311739995697
+    second: anim_fireball_109
+  - first:
+      213: 6626800753770372719
+    second: anim_fireball_110
+  - first:
+      213: 1500854720810344569
+    second: anim_fireball_111
+  - first:
+      213: -3817072044545273600
+    second: anim_fireball_112
+  - first:
+      213: 1472760327680956735
+    second: anim_fireball_113
+  - first:
+      213: 2930319788730262252
+    second: anim_fireball_114
+  - first:
+      213: -4417778677897555637
+    second: anim_fireball_115
+  - first:
+      213: -3125994849495355894
+    second: anim_fireball_116
+  - first:
+      213: 9125800599680325193
+    second: anim_fireball_117
+  - first:
+      213: -1352745001779180538
+    second: anim_fireball_118
+  - first:
+      213: 2709256694014624892
+    second: anim_fireball_119
+  - first:
+      213: -2910087674115306831
+    second: anim_fireball_120
+  - first:
+      213: -3517915025391657290
+    second: anim_fireball_121
+  - first:
+      213: 3267997649313780205
+    second: anim_fireball_122
+  - first:
+      213: 3089656525001105376
+    second: anim_fireball_123
+  - first:
+      213: -7275618786803088848
+    second: anim_fireball_124
+  - first:
+      213: 2241589412046421074
+    second: anim_fireball_125
+  - first:
+      213: -7217333992764004449
+    second: anim_fireball_126
+  - first:
+      213: 4852650789302863065
+    second: anim_fireball_127
+  - first:
+      213: -9166703895200989549
+    second: anim_fireball_128
+  - first:
+      213: -6448215783624074734
+    second: anim_fireball_129
+  - first:
+      213: -2201792244343182352
+    second: anim_fireball_130
+  - first:
+      213: -2678887915974973896
+    second: anim_fireball_131
+  - first:
+      213: 9027849876814299810
+    second: anim_fireball_132
+  - first:
+      213: -1051133924764195675
+    second: anim_fireball_133
+  - first:
+      213: 2566586697163005953
+    second: anim_fireball_134
+  - first:
+      213: 815450647841420017
+    second: anim_fireball_135
+  - first:
+      213: -3424278170501617651
+    second: anim_fireball_136
+  - first:
+      213: -2225233168289637299
+    second: anim_fireball_137
+  - first:
+      213: -6459812762384569749
+    second: anim_fireball_138
+  - first:
+      213: 1622314190501723631
+    second: anim_fireball_139
+  - first:
+      213: 5521265105510483392
+    second: anim_fireball_140
+  - first:
+      213: -4493075475094827192
+    second: anim_fireball_141
+  - first:
+      213: -4766467862259183601
+    second: anim_fireball_142
+  - first:
+      213: 8076572375688002009
+    second: anim_fireball_143
+  - first:
+      213: 5417228254345000593
+    second: anim_fireball_144
+  - first:
+      213: 7885259005148550876
+    second: anim_fireball_145
+  - first:
+      213: 7658990315005331996
+    second: anim_fireball_146
+  - first:
+      213: -6941139517509295894
+    second: anim_fireball_147
+  - first:
+      213: 6077032489295440181
+    second: anim_fireball_148
+  - first:
+      213: 2935774424097279916
+    second: anim_fireball_149
+  - first:
+      213: -1457234852211530783
+    second: anim_fireball_150
+  - first:
+      213: 3359393964501880686
+    second: anim_fireball_151
+  - first:
+      213: 7436218408258884860
+    second: anim_fireball_152
+  - first:
+      213: 5109673441898703901
+    second: anim_fireball_153
+  - first:
+      213: 4485687847080561904
+    second: anim_fireball_154
+  - first:
+      213: -8184409675254944795
+    second: anim_fireball_155
+  - first:
+      213: -3107270900935927303
+    second: anim_fireball_156
+  - first:
+      213: 2365947552654274846
+    second: anim_fireball_157
+  - first:
+      213: 898923333939773956
+    second: anim_fireball_158
+  - first:
+      213: -1048152779700905689
+    second: anim_fireball_159
+  - first:
+      213: -518629394508389076
+    second: anim_fireball_160
+  - first:
+      213: 6732726070117751192
+    second: anim_fireball_161
+  - first:
+      213: -6437520837343559563
+    second: anim_fireball_162
+  - first:
+      213: -2076167634924102352
+    second: anim_fireball_163
+  - first:
+      213: 7996907135906829184
+    second: anim_fireball_164
+  - first:
+      213: 4875453672214869055
+    second: anim_fireball_165
+  - first:
+      213: -5814328768581865329
+    second: anim_fireball_166
+  - first:
+      213: 5562973167557850356
+    second: anim_fireball_167
+  - first:
+      213: -8925164007929133542
+    second: anim_fireball_168
+  - first:
+      213: 6843538019037629026
+    second: anim_fireball_169
+  - first:
+      213: 1814652480262917997
+    second: anim_fireball_170
+  - first:
+      213: 8003242267946511174
+    second: anim_fireball_171
+  - first:
+      213: -1601087597952096162
+    second: anim_fireball_172
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim_fireball_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 770
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8317840a667040730800000000000000
+      internalID: 3964301709350039864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 770
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392f4aa6b384edca0800000000000000
+      internalID: -5990271034326715757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 770
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ada8fb1b9a4d290800000000000000
+      internalID: -7866476068221560201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 770
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fa7750c9eaf59d0800000000000000
+      internalID: -2783314059561816226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5216e3ba8c30a2270800000000000000
+      internalID: 8226391829746966821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 580
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7cfd6ee2d8b2b60800000000000000
+      internalID: 7722421218638284799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 580
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cabc7d710f464020800000000000000
+      internalID: 2325633125402327747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 580
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22047851be78ff5b0800000000000000
+      internalID: -5332393990035128286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 580
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e2ccb574ece9aa0800000000000000
+      internalID: -6152253235063411159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736c9d8aab880fa10800000000000000
+      internalID: 1941201774674822711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 390
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc7386961c6d9e0800000000000000
+      internalID: -1596876359392047198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 390
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b02b05905394a20800000000000000
+      internalID: 3047024937017674644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 390
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a068141c27ec3ca00800000000000000
+      internalID: 775690553101747722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_13
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 390
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded84d7b8e3e41330800000000000000
+      internalID: 3680817384124616173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903951ba7362fe590800000000000000
+      internalID: -7642848022089067767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 200
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe61a4c6b7f4830800000000000000
+      internalID: 4057597494313806834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 200
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be854b8781702390800000000000000
+      internalID: -7845145723908288847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 200
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b4388ba01733670800000000000000
+      internalID: 8517275611146963752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 200
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb3d68e5f9a1a00800000000000000
+      internalID: 728069518111522590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f73f985d4bd75980800000000000000
+      internalID: -8550124242293803021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 10
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651076b7c91b56c0800000000000000
+      internalID: -4153697885769165462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 10
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b43884c71433ea20800000000000000
+      internalID: 3090371045992445107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 10
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ce5d296ed4cb9a0800000000000000
+      internalID: -6216007732976817139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_fireball_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 10
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0713ca04f06397490800000000000000
+      internalID: -7748102244776791696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
