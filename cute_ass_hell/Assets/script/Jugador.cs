@@ -8,15 +8,15 @@ public class Jugador : MonoBehaviour
     //velocitat amb la que es mou el jugador, es determina desde unity.
     public float speed;
     //vida del Jugador
-    public int vida;
+    public int vida, monedes;
 
     Vector3 move;
     Vector3 desplazamiento;
+    //Quaternion rotacio;
     Rigidbody2D rb;
     //Quaternion rotacio;
     GameObject spawner;
-    public bool guitarra, arpa, bateria, trompeta;
-    public int monedes;
+    public bool guitarra, arpa, bateria, trompeta, pause;
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +30,16 @@ public class Jugador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //es modifican la x i la y segons s'apretin les tecles corresponets.
-        move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        if (!pause)
+        {
+            //es modifican la x i la y segons s'apretin les tecles corresponets.
+            move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 
-        rb = this.gameObject.GetComponent<Rigidbody2D>();
+            rb = this.gameObject.GetComponent<Rigidbody2D>();
 
-        rb.velocity = new Vector3(desplazamiento.x * Time.deltaTime, desplazamiento.y * Time.deltaTime, 0);
-        //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+            rb.velocity = new Vector3(desplazamiento.x * Time.deltaTime, desplazamiento.y * Time.deltaTime, 0);
+            //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+        }
     }
 
     // Update is called once per frame
@@ -61,8 +64,6 @@ public class Jugador : MonoBehaviour
         
         //es modifica l'angle en cada update.
         //transform.rotation = rotacio;
-
-        //transform.rotation = Quaternion.Euler(0, 0, agress);
 
     }
 
@@ -94,6 +95,8 @@ public class Jugador : MonoBehaviour
     //si hi ha alguna animacio al morir es posa en aquest metode
     void morir()
     {
+        pause = true;
+        GameManager.mort = true;
         Destroy(this.gameObject);
     }
 }
