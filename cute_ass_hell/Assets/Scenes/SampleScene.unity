@@ -846,6 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c3aee695d6db524f8f5bf4c0cf00368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprite: {fileID: 8576913225981817479, guid: 4156efbdae245db4cb217004874ba0eb, type: 3}
   jugador: {fileID: 7070897782575704469, guid: 0e2cce72264e1314dbbd8b837d7131b5, type: 3}
   pared: {fileID: 986115111034790972, guid: 7c58782f725ec1e499632db1bb01fab7, type: 3}
   levelManager: {fileID: 622389258}

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameManager    : MonoBehaviour
 {
     //objectes que es crean al principi del joc.
+    public Sprite sprite;
     public Jugador jugador;
     public Pared pared;
     public LevelManager levelManager;
@@ -31,8 +32,11 @@ public class GameManager    : MonoBehaviour
     public void play()
     {
         //Es crean els objectes.
+        Sprite sp = Instantiate(sprite);
         Jugador player = Instantiate(jugador);
+        sp.transform.position = this.transform.position;
         player.transform.position = this.transform.position;
+        sp.jugador = player;
         player.pause = true;
         //la camara segueix al personatge.
         GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;

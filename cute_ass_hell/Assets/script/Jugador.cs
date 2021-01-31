@@ -12,9 +12,8 @@ public class Jugador : MonoBehaviour
 
     Vector3 move;
     Vector3 desplazamiento;
-    //Quaternion rotacio;
+    Quaternion rotacio;
     Rigidbody2D rb;
-    //Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta, pause;
 
@@ -59,11 +58,11 @@ public class Jugador : MonoBehaviour
                 agress = -agress;
             }
 
-            //rotacio = Quaternion.Euler(0, 0, agress);
+            rotacio = Quaternion.Euler(0, 0, agress);
         }
         
         //es modifica l'angle en cada update.
-        //transform.rotation = rotacio;
+        transform.rotation = rotacio;
 
     }
 
