@@ -34,6 +34,6 @@ public class GameManager    : MonoBehaviour
 
         //es canvia el nivell.
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-        levelManager.canviNivell(0, jugador);
+        levelManager.jugador = player;
     }
 }
