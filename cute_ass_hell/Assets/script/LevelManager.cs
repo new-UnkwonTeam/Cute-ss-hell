@@ -106,7 +106,7 @@ public class LevelManager : MonoBehaviour
                 UItext.gameObject.SetActive(false);
                 spawner.noMolestar = true;
 
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(5);
                 yield return 10;
             }
             yield return 0;
