@@ -464,7 +464,7 @@ MonoBehaviour:
   spawner: {fileID: 7928981}
   deathBoss: 0
   jugador: {fileID: 0}
-  gameStates: 0
+  gameStates: 2
   pantallaNivell: {fileID: 1288245289}
   UItext: {fileID: 1694539312}
 --- !u!4 &622389259
@@ -6001,7 +6001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1288245290
 RectTransform:
   m_ObjectHideFlags: 0

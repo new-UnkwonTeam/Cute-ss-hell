@@ -10,13 +10,15 @@ public class Jugador : MonoBehaviour
     //vida del Jugador
     public int vida;
 
-    Vector3 move;
+    Vector2 moviment;
+  
     Vector3 desplazamiento;
     Rigidbody2D rb;
     //Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta;
     public int monedes;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,28 +26,22 @@ public class Jugador : MonoBehaviour
         arpa = true;
         spawner = GameObject.Find("Spawner");
         spawner.transform.position = transform.position + Vector3.down;
-
-        move = Vector3.zero;
+        //move = Vector3.zero;
+        animator = gameObject.GetComponent<Animator>();
     }
 
-    private void FixedUpdate()
-    {
-        //es modifican la x i la y segons s'apretin les tecles corresponets.
-        move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-
-        rb = this.gameObject.GetComponent<Rigidbody2D>();
-
-        rb.velocity = new Vector3(desplazamiento.x * Time.deltaTime, desplazamiento.y * Time.deltaTime, 0);
-        //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
-    }
-
-    // Update is called once per frame
     void Update()
-    { 
-        //distancia que es maura.
-        desplazamiento = move * speed;
+    {
+        moviment.x = Input.GetAxisRaw("Horizontal");
+        moviment.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) {
+        animator.SetFloat("Horizontal", moviment.x);
+        animator.SetFloat("Vertical", moviment.y);
+        animator.SetFloat("Speed", Mathf.Abs(moviment.x) + Mathf.Abs(moviment.y));
+        //distancia que es moura.
+        desplazamiento = moviment * speed;
+
+        /*if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) {
             Debug.Log("wasd");
 
             //angle en que es maura. es crea aparti de el vector move
@@ -56,15 +52,25 @@ public class Jugador : MonoBehaviour
                 agress = -agress;
             }
 
-            //rotacio = Quaternion.Euler(0, 0, agress);
-        }
-        
-        //es modifica l'angle en cada update.
-        //transform.rotation = rotacio;
+            //rotacio = Quaternion.Euler(0, 0, agress);*/
 
-        //transform.rotation = Quaternion.Euler(0, 0, agress);
 
     }
+
+    private void FixedUpdate()
+    {
+        //rb.MovePosition(rb.position + moviment * speed * Time.fixedDeltaTime);
+        //es modifican la x i la y segons s'apretin les tecles corresponets.
+        moviment = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+
+        rb = this.gameObject.GetComponent<Rigidbody2D>();
+
+        rb.velocity = new Vector3(desplazamiento.x * Time.deltaTime, desplazamiento.y * Time.deltaTime, 0);
+        //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+    }
+
+    // Update is called once per frame
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
