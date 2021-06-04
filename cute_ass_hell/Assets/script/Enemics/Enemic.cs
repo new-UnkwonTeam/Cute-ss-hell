@@ -7,6 +7,7 @@ public class Enemic : MonoBehaviour
 
     //vida del enemic
     public int vida;
+    public int qualityScore;
     public bool bateria = false;
     public GameObject moneda;
 
@@ -52,6 +53,7 @@ public class Enemic : MonoBehaviour
     //si hi ha alguna animacio al morir es posa en aquest metode
     void morir()
     {
+        GameObject.Find("GameManager").GetComponent<GameManager>().score += qualityScore;
         if (this.CompareTag("Enemy")) GameObject.Find("LevelManager").GetComponent<LevelManager>().deathEnemy++;
         else GameObject.Find("LevelManager").GetComponent<LevelManager>().deathBoss = true;
 
