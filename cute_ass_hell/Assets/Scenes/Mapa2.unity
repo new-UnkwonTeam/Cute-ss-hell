@@ -9173,6 +9173,7 @@ MonoBehaviour:
   enemic: {fileID: 827351146824645558, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
   pared: {fileID: 986115111034790972, guid: 7c58782f725ec1e499632db1bb01fab7, type: 3}
   levelManager: {fileID: 0}
+  score: 0
 --- !u!4 &1134403974
 Transform:
   m_ObjectHideFlags: 0

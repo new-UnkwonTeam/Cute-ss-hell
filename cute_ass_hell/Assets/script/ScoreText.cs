@@ -11,17 +11,19 @@ public class ScoreText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = $"score {GameObject.Find("GameManager").GetComponent<GameManager>().score} p";
+        GameManager gameManager= GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        scoreText.text = $"score {gameManager.score} p";
+        Destroy(gameManager.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnMouseDown()
-    {
-        SceneManager.LoadScene(1);
+        if (Input.GetMouseButtonDown(0) ||
+            Input.GetMouseButtonDown(1))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

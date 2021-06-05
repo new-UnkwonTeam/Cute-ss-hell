@@ -9,7 +9,7 @@ public class EnemyFollow : MonoBehaviour
     private List<Rigidbody2D> EnemyRBs; 
     public float speed; 
     private Transform playerPos; 
- 
+    public float attackDistance = 0.9f;
     private float repelRange = .5f; 
     private Rigidbody2D rb; 
     void Awake() 
@@ -33,7 +33,7 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame 
     void Update() 
     { 
-        if(Vector2.Distance(transform.position, playerPos.position) > 0.9f) 
+        if(Vector2.Distance(transform.position, playerPos.position) > attackDistance) 
         transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime); 
     } 
  

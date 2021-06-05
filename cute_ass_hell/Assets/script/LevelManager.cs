@@ -67,10 +67,10 @@ public class LevelManager : MonoBehaviour
         {
             while (gameStates == GameStates.play)
             {
+                if (jugador == null) gameStates = GameStates.gameOver;
                 UItext.gameObject.SetActive(true);
                 pantallaNivell.gameObject.SetActive(false);
                 spawner.noMolestar = false;
-                if (!jugador.isActiveAndEnabled) gameStates = GameStates.gameOver;
 
                 yield return 0;
             }

@@ -83,7 +83,7 @@ public class Jugador : MonoBehaviour
     }
 
     //Resta vida del enemic segons la cantitat introduida per parametre.
-    void RestarVida(int vidaNegativa)
+    public void RestarVida(int vidaNegativa)
     {
         vida -= vidaNegativa;
 
