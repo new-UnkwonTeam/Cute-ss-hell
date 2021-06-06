@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     public bool deathBoss;
     public Jugador jugador;
     public GameStates gameStates;
-    public GameObject pantallaNivell, UItext;
+    public GameObject pantallaNivell, UItext, ChangeLevelBox;
 
     // Start is called before the first frame update
     void Start()
@@ -121,8 +121,8 @@ public class LevelManager : MonoBehaviour
             {
                 UItext.gameObject.SetActive(false);
                 spawner.noMolestar = true;
-                SceneManager.LoadScene(actualLevel + 1);
-
+                ChangeLevelBox.gameObject.SetActive(true);
+                ChangeLevelBox.GetComponent<ChangeLevelBox>().actualLevel = actualLevel;
                 yield return 10;
             }
             yield return 0;

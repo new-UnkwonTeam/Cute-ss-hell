@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 300
-  vida: 10
+  vida: 1000
   guitarra: 0
   arpa: 0
   bateria: 0
