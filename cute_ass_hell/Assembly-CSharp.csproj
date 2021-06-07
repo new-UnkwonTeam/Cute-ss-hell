@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Habilitats\Ability.cs" />
     <Compile Include="Assets\Habilitats\SpawnerAbilitat.cs" />
+    <Compile Include="Assets\script\ChangeLevelBox.cs" />
+    <Compile Include="Assets\script\Enemics\DistanceUnit.cs" />
     <Compile Include="Assets\script\Enemics\Enemic.cs" />
     <Compile Include="Assets\script\Enemics\EnemyFollow.cs" />
     <Compile Include="Assets\script\Enemics\SpawnerEnemic.cs" />
@@ -77,7 +79,9 @@
     <Compile Include="Assets\script\Pared.cs" />
     <Compile Include="Assets\script\PathFinding.cs" />
     <Compile Include="Assets\script\PlayerMovement.cs" />
+    <Compile Include="Assets\script\ProjjectilEnemic.cs" />
     <Compile Include="Assets\script\Proyectil.cs" />
+    <Compile Include="Assets\script\ScoreText.cs" />
     <Compile Include="Assets\script\SeguimetnCamara.cs" />
     <Compile Include="Assets\script\SpawnerProyectil.cs" />
     <Reference Include="UnityEngine">

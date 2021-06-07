@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1283968512246894990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765565909346950439}
+  m_Layer: 0
+  m_Name: ProjectilSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765565909346950439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283968512246894990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.94, y: -0.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6431146970249205312}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3771375912800169590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029598123742006141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0489cb80fa3b6ca4b85e6b6719b2be90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectils: {fileID: 2734542084028280491, guid: a2b7b9ac3ab54284994f57de864e7f81,
+    type: 3}
+  spawnProyectilPoint: {fileID: 765565909346950439}
+  damage: 2
+  attackDistance: 5
+  attackSpeed: 0
+  attackTimer: 2
 --- !u!1001 &1588196339980367274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21,6 +70,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604969074711450473, guid: 6e43e62190abf3144825af14ab43b984,
+        type: 3}
+      propertyPath: attackDistance
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3156741141335298448, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
@@ -100,3 +154,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e43e62190abf3144825af14ab43b984, type: 3}
+--- !u!1 &2029598123742006141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 729860859004452567, guid: 6e43e62190abf3144825af14ab43b984,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588196339980367274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6431146970249205312 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5713500232161059818, guid: 6e43e62190abf3144825af14ab43b984,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588196339980367274}
+  m_PrefabAsset: {fileID: 0}
