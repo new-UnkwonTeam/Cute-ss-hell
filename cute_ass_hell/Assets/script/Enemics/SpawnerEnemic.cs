@@ -8,7 +8,7 @@ public class SpawnerEnemic : MonoBehaviour
     private float spawnRadius = 7, time = 1.5f;
     public float enemyCounter = 20;
 
-    public GameObject enemic;
+    public GameObject[] enemics;
     public GameObject boss;
     public Jugador jugador;
 
@@ -31,7 +31,7 @@ public class SpawnerEnemic : MonoBehaviour
 
             if (enemyCounter >= 0)
             {
-                Instantiate(enemic, spawnPosicio, Quaternion.identity);
+                Instantiate(enemics[Random.Range(0,enemics.Length)], spawnPosicio, Quaternion.identity);
                 yield return new WaitForSeconds(time);
                 StartCoroutine(SpawnEnemic());
                 enemyCounter--;

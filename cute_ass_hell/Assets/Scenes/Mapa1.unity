@@ -153,7 +153,8 @@ MonoBehaviour:
   spawnRadius: 5
   time: 2
   enemyCounter: 20
-  enemic: {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
+  enemics:
+  - {fileID: 3068451897614767345, guid: 63d0599c9b58c844ba996694af888f7b, type: 3}
   boss: {fileID: 9109180136096579413, guid: 7db5b36624b7b574a9ac38de64245475, type: 3}
   jugador: {fileID: 0}
   noMolestar: 1
