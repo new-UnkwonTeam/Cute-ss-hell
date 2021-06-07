@@ -3,7 +3,33 @@ guid: 31c1ece4898954744a34138c54934353
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - disparo_ac: {instanceID: 0}
+  - ice_shot_ac: {instanceID: 0}
+  - toxic_shot_ac: {instanceID: 0}
+  - heal_AC: {instanceID: 0}
+  - disparo: {instanceID: 0}
+  - ice_shot: {instanceID: 0}
+  - toxic_shot: {instanceID: 0}
+  - up: {fileID: 6506517003208156902, guid: f8789d5e2f4da7e408d0b8e45c61215f, type: 3}
+  - up2: {fileID: 5637146223958255351, guid: cf8bae3341ca0224ca431df7bbf6fda7, type: 3}
+  - up3: {fileID: 7670114917845505865, guid: 6403c354432ca424ba5dc4ff0c90fb5d, type: 3}
+  - up4: {fileID: 3342528251472503531, guid: cae94af655f69d84f92f6f28d76241bf, type: 3}
+  - down: {fileID: 1957528316691404895, guid: 6b3a8261d83e3d14f8caa253d441b4f8, type: 3}
+  - down2: {fileID: 3387864114570548095, guid: fe3d50281bb62ef498faf89d966e535b, type: 3}
+  - down3: {fileID: 3387864114570548095, guid: fe3d50281bb62ef498faf89d966e535b, type: 3}
+  - down4: {fileID: 5482063643509285304, guid: 84597f1b8f6ce9d42af631804864904b, type: 3}
+  - left: {fileID: 439356907901653557, guid: 79c01e4d9cc7f5b47aa972d072199353, type: 3}
+  - left2: {fileID: 8673423904350154889, guid: e909a81d010a0a8458f728c76f1cd242, type: 3}
+  - left3: {fileID: 6219520197089977773, guid: 93e8fa2719ac2fa4f96eebe37c759aa6, type: 3}
+  - left4: {fileID: 8206337501399322149, guid: 1385951ff3f1399428cc5dca200353af, type: 3}
+  - right: {fileID: 2368295882076220310, guid: 0df4e9898636e7148b74e16e0a8c36ea, type: 3}
+  - right2: {fileID: 3932411449964228274, guid: 9efbfbd534035714787a9aad2d3cc0a7,
+      type: 3}
+  - right3: {fileID: 2341051264889726432, guid: 0ecdbfa2bd6c6bb498725a477c51a4ed,
+      type: 3}
+  - right4: {fileID: 5615910982197542180, guid: 575cc7d8578ceee4391cddf999574128,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

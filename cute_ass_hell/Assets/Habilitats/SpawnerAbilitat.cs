@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 using ComboNode = System.Collections.Generic.Dictionary<uint, uint>;
 
 public class SpawnerAbilitat : MonoBehaviour
@@ -41,6 +41,7 @@ public class SpawnerAbilitat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         nextFire = 0;
 
         combos.Add (new uint[] { 
@@ -76,9 +77,13 @@ public class SpawnerAbilitat : MonoBehaviour
         buttons = 0;
 
         buttons |= Input.GetKey(KeyCode.UpArrow) == true ? (uint)(BUTTONS.UP) : 0;
+
         buttons |= Input.GetKey(KeyCode.DownArrow) == true ? (uint)(BUTTONS.DOWN) : 0;
+
         buttons |= Input.GetKey(KeyCode.LeftArrow) == true ? (uint)(BUTTONS.LEFT) : 0;
+
         buttons |= Input.GetKey(KeyCode.RightArrow) == true ? (uint)(BUTTONS.RIGHT) : 0;
+
 
     }
 
@@ -97,14 +102,11 @@ public class SpawnerAbilitat : MonoBehaviour
         {
             if (nodes[(int)comboIndex].ContainsKey(buttons))
             {
-                if (comboIndex > 268435457)
+                if (comboIndex > 268435457 || comboIndex < 0)
                 {
                     comboIndex = 0;
                 }
-                if (comboIndex < 0)
-                {
-                    comboIndex = 0;
-                }
+              
                 comboIndex = nodes[(int)comboIndex][buttons];
 
                 if (comboIndex >= (uint)BUTTONS.COMBO_END && Time.time>nextFire)
