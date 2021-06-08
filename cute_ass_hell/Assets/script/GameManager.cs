@@ -38,8 +38,8 @@ public class GameManager : MonoBehaviour
     public void play()
     {
         //Es crean els objectes.
-        Jugador player = Instantiate(jugador, this.transform);
-        //player.transform.position = this.transform.position;
+        Jugador player = Instantiate(jugador);
+        player.transform.position = this.transform.position;
 
         //la camara segueix al personatge.
         GameObject.Find("Main Camera").GetComponent<SeguimetnCamara>().jugador = player;

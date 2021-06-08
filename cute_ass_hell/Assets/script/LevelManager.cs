@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (deathEnemy >= 20 && GameObject.Find(spawner.enemic.name + "(Clone)") == null)
+        if (deathEnemy >= 20 && !FoundEnemy(spawner.enemics))
         {
             Debug.Log("BossIsManager / " + spawner.bossIsHere + spawner.noMolestar);
             spawner.bossIsHere = true;
@@ -127,5 +127,15 @@ public class LevelManager : MonoBehaviour
             }
             yield return 0;
         }
+    }
+
+    bool FoundEnemy(GameObject[] enemys)
+    {
+        foreach(GameObject enemy in enemys)
+        {
+            if (GameObject.Find(enemy.name + "(Clone)") != null) return true;
+        }
+
+        return false;
     }
 }
