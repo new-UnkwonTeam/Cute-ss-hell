@@ -32,7 +32,8 @@ public class DistanceUnit : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(pos - transform.position);
             if ((distance > attackDistance) || (attackSpeed < attackTimer)) return;
             Debug.Log("ESTA PEGANDO ");
-            
+            GetComponent<Enemic>().currrentStates = Enemic.EnemyStates.attack;
+
             attackSpeed = 0;
 
             Quaternion projectileRotation =

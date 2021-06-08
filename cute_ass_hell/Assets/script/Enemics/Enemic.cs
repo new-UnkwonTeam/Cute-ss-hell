@@ -10,11 +10,12 @@ public class Enemic : MonoBehaviour
     public int qualityScore;
     public bool bateria = false;
     public GameObject moneda;
-
+    public EnemyStates currrentStates;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-       
+        //animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +29,10 @@ public class Enemic : MonoBehaviour
         
     }
 
+    public enum EnemyStates
+    {
+        move, attack, death
+    }
 
     //Detecta si algo colisiona amb l'enemic.
     private void OnCollisionEnter2D(Collision2D collision)
@@ -53,6 +58,9 @@ public class Enemic : MonoBehaviour
     //si hi ha alguna animacio al morir es posa en aquest metode
     void morir()
     {
+        currrentStates = Enemic.EnemyStates.attack;
+        
+
         GameObject.Find("GameManager").GetComponent<GameManager>().score += qualityScore;
         if (this.CompareTag("Enemy")) GameObject.Find("LevelManager").GetComponent<LevelManager>().deathEnemy++;
         else GameObject.Find("LevelManager").GetComponent<LevelManager>().deathBoss = true;

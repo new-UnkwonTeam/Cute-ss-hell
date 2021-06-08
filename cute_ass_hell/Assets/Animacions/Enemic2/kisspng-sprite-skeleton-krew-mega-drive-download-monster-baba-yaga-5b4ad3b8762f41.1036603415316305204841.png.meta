@@ -1,0 +1,1511 @@
+fileFormatVersion: 2
+guid: 9f11906dbf724db449e9521618f518af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3921522734421124319
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_0
+  - first:
+      213: 1386018474737692252
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_1
+  - first:
+      213: 687398024762471670
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_0
+  - first:
+      213: -6945239012260166280
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_2
+  - first:
+      213: 3872413597097960744
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_3
+  - first:
+      213: -125983821021074317
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_4
+  - first:
+      213: -1320605184632368992
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_5
+  - first:
+      213: -8242514568978907158
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_6
+  - first:
+      213: -7580235811302290610
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_7
+  - first:
+      213: -7051486592598827040
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_8
+  - first:
+      213: 1640633355095447662
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_9
+  - first:
+      213: -2311386933276085564
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_10
+  - first:
+      213: -1553868727874848027
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_11
+  - first:
+      213: 1095121645365492439
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_12
+  - first:
+      213: -2689689674950416692
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_13
+  - first:
+      213: -7446889750582826384
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_14
+  - first:
+      213: -2794652923403540654
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_15
+  - first:
+      213: 4326598046602596324
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_16
+  - first:
+      213: -1899381544370519980
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_17
+  - first:
+      213: -3800345380148403959
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_18
+  - first:
+      213: -1991338395777453991
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_19
+  - first:
+      213: -8042750033974002772
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_20
+  - first:
+      213: -5199281093721844086
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_21
+  - first:
+      213: -3173643078030445260
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_22
+  - first:
+      213: 2828177968047498900
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_23
+  - first:
+      213: -5949183008005910501
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_24
+  - first:
+      213: -786263901532542115
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_25
+  - first:
+      213: -8876938405970668661
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_26
+  - first:
+      213: 2962762176335716715
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_27
+  - first:
+      213: -8715251175075918558
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_28
+  - first:
+      213: -2810716307990117132
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_29
+  - first:
+      213: -6615586185061138388
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_30
+  - first:
+      213: 3125850430442141528
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_31
+  - first:
+      213: 8100945329163192650
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_32
+  - first:
+      213: -8182117971140271348
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_33
+  - first:
+      213: 1127949267295301466
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_34
+  - first:
+      213: 3138730350041542644
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_35
+  - first:
+      213: -1961664901708094190
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_36
+  - first:
+      213: -8994270637151220743
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_37
+  - first:
+      213: 6472366062956862379
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_38
+  - first:
+      213: -9089780889994125761
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_39
+  - first:
+      213: -2112664970104821956
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_40
+  - first:
+      213: -1747709869237166179
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_41
+  - first:
+      213: 3369457052614459401
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_42
+  - first:
+      213: 2104517890125160126
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_43
+  - first:
+      213: -3760666886345696663
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_44
+  - first:
+      213: 69568387417251801
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_45
+  - first:
+      213: -6671722968840841298
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_46
+  - first:
+      213: 2867831973419619783
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_47
+  - first:
+      213: 8812114934418153315
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_48
+  - first:
+      213: -6664491496710946634
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_49
+  - first:
+      213: 5661191565152094732
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_50
+  - first:
+      213: -1869255973345180447
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_51
+  - first:
+      213: -1825364716539161176
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_52
+  - first:
+      213: -8584688615229249664
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_53
+  - first:
+      213: 1321100591055935594
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_54
+  - first:
+      213: -3437938174090115297
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_55
+  - first:
+      213: 6459597939422600651
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_56
+  - first:
+      213: -2188650138885473906
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_57
+  - first:
+      213: 8808420264431161092
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_58
+  - first:
+      213: -6839952468843764048
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_59
+  - first:
+      213: 278951404420198030
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_60
+  - first:
+      213: 3336146310490708243
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_61
+  - first:
+      213: 7571477657377295735
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_62
+  - first:
+      213: -310359493447543303
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_63
+  - first:
+      213: 1392132849077308930
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_64
+  - first:
+      213: -336464668004849694
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_65
+  - first:
+      213: 6806681707194587484
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_66
+  - first:
+      213: -5536205800670736265
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_67
+  - first:
+      213: -7669395631043402705
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_68
+  - first:
+      213: 8992057671700919435
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_69
+  - first:
+      213: -4687674285805141865
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_70
+  - first:
+      213: -3676543813632728604
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_71
+  - first:
+      213: 9052947383493379826
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_72
+  - first:
+      213: -5050248455486292406
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_73
+  - first:
+      213: 6025485765403938904
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_74
+  - first:
+      213: 5684687744509565443
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_75
+  - first:
+      213: -475136518821352355
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_76
+  - first:
+      213: -5678652695589934915
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_77
+  - first:
+      213: 4590238268871022193
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_78
+  - first:
+      213: -3776352337190894518
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_79
+  - first:
+      213: 7465852342234828068
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_80
+  - first:
+      213: 1197850845970051957
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_81
+  - first:
+      213: 7210923303793018609
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_82
+  - first:
+      213: -271340023371059062
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_83
+  - first:
+      213: 6256446161685830469
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_84
+  - first:
+      213: 8527518073668207658
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_85
+  - first:
+      213: 7174174734491958977
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_86
+  - first:
+      213: 1164075382793695917
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_87
+  - first:
+      213: -2900234186277046878
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_88
+  - first:
+      213: -6184376781232930840
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_89
+  - first:
+      213: -3221487160121266779
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_90
+  - first:
+      213: 7069662073439387775
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_91
+  - first:
+      213: -2139223801189128017
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_92
+  - first:
+      213: -3509855380105549063
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_93
+  - first:
+      213: -382475488453791616
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_94
+  - first:
+      213: -3435292043677283969
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_95
+  - first:
+      213: -1489912299326050066
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_96
+  - first:
+      213: -4777061469540538762
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_97
+  - first:
+      213: -8467329704611134280
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_98
+  - first:
+      213: -4353382168257624794
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_99
+  - first:
+      213: -6035761548033756979
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_100
+  - first:
+      213: 9003089594946716060
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_101
+  - first:
+      213: -1917190807920522494
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_102
+  - first:
+      213: -257217704259245475
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_103
+  - first:
+      213: 7400207931057199979
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_104
+  - first:
+      213: 5925660865785630104
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_105
+  - first:
+      213: 8564878491621772761
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_106
+  - first:
+      213: 7696549127873835820
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_107
+  - first:
+      213: -7630075835543123395
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_108
+  - first:
+      213: -2904107730221759925
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_109
+  - first:
+      213: 8579369394929048408
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_110
+  - first:
+      213: 5201293987927147304
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_111
+  - first:
+      213: -4255177686182674952
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_112
+  - first:
+      213: -3334244480088979267
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_113
+  - first:
+      213: 2717598814022940992
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_114
+  - first:
+      213: -4296413924048717193
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_115
+  - first:
+      213: -6416751605076593555
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_116
+  - first:
+      213: 4075936638701238992
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_117
+  - first:
+      213: -1458607958769123861
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_118
+  - first:
+      213: 8067803610577104096
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_119
+  - first:
+      213: -2194878859506666733
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_120
+  - first:
+      213: 9134792405469771664
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_121
+  - first:
+      213: 4938357065444595950
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_122
+  - first:
+      213: -3102274694388241668
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_123
+  - first:
+      213: -6156415065517575217
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_124
+  - first:
+      213: -6760696328849017772
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_125
+  - first:
+      213: 1907875634092095643
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_126
+  - first:
+      213: 2616831641800746804
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_127
+  - first:
+      213: 306222383933431742
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_128
+  - first:
+      213: 3667010193920337044
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_129
+  - first:
+      213: 8493369443144185487
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_130
+  - first:
+      213: 5220358482000583349
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_131
+  - first:
+      213: 5060118373106281620
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_132
+  - first:
+      213: 8961945815219255013
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_133
+  - first:
+      213: -8382674206759716392
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_134
+  - first:
+      213: 2268108728838720315
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_135
+  - first:
+      213: 3044248275400019464
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_136
+  - first:
+      213: 7000574531841424002
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_137
+  - first:
+      213: 7321978673622681949
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_138
+  - first:
+      213: -4951480964549290699
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_139
+  - first:
+      213: -2014258081459789744
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_140
+  - first:
+      213: 6591638924685400926
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_141
+  - first:
+      213: 591992114990876834
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_142
+  - first:
+      213: -1031305462185362087
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_143
+  - first:
+      213: 151740025571937202
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_144
+  - first:
+      213: 3105576540405714202
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_145
+  - first:
+      213: 2929310005900934966
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_146
+  - first:
+      213: 204576170659852701
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_147
+  - first:
+      213: -7667993870476661738
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_148
+  - first:
+      213: -2392877080031772135
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_149
+  - first:
+      213: -8984809247372403203
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_150
+  - first:
+      213: -2170110020205206944
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_151
+  - first:
+      213: 4913731656662379838
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_152
+  - first:
+      213: -9180573863596105334
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_153
+  - first:
+      213: -7902396220458452972
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_154
+  - first:
+      213: 9036377720341179696
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_155
+  - first:
+      213: -6686051168184027462
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_156
+  - first:
+      213: -7449623437886606359
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_157
+  - first:
+      213: 80558910386637284
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_158
+  - first:
+      213: 3374606552451965778
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_159
+  - first:
+      213: 90029496263958846
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_160
+  - first:
+      213: 7955568623378160081
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_161
+  - first:
+      213: 7625404567940597900
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_162
+  - first:
+      213: 4125939033424186550
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_163
+  - first:
+      213: -4327481587127254544
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_164
+  - first:
+      213: -8436176482801783824
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_165
+  - first:
+      213: 1570542863621858554
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_166
+  - first:
+      213: 7687487644995418158
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_167
+  - first:
+      213: -3387633338038732108
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_168
+  - first:
+      213: 1920062815620694371
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_169
+  - first:
+      213: 202492502813029820
+    second: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_170
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 726, z: 840, w: 6}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b54d8cd02a8900800000000000000
+      internalID: 687398024762471670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e6ed695702c3310800000000000000
+      internalID: 1386018474737692252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825aa6e46a39db530800000000000000
+      internalID: 3872413597097960744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ca79cd16a604ef0800000000000000
+      internalID: -125983821021074317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0d279d4944cade0800000000000000
+      internalID: -1320605184632368992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 724
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefb7049ba4bc9d80800000000000000
+      internalID: -8242514568978907158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef97bded46142e90800000000000000
+      internalID: -7051486592598827040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e681f111853b4c610800000000000000
+      internalID: 1640633355095447662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2799794dd4cefd0800000000000000
+      internalID: -2311386933276085564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea7e6fef9c8f6ae0800000000000000
+      internalID: -1553868727874848027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daf9d19557a23f00800000000000000
+      internalID: 1095121645365492439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 599
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc66b80cd7d4caad0800000000000000
+      internalID: -2689689674950416692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a63072a3557a890800000000000000
+      internalID: -7446889750582826384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 566
+        width: 33
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257660e09f56739d0800000000000000
+      internalID: -2794652923403540654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef85a5000a2b0c30800000000000000
+      internalID: 4326598046602596324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ccda7c8a04a5e0800000000000000
+      internalID: -1899381544370519980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90125780306724bc0800000000000000
+      internalID: -3800345380148403959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b61497485d54e0800000000000000
+      internalID: -1991338395777453991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf7b7d479626090800000000000000
+      internalID: -8042750033974002772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_21
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a861e49646178d7b0800000000000000
+      internalID: -5199281093721844086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 483
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353e1a6f64f4f3d0800000000000000
+      internalID: -3173643078030445260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1094080391407da0800000000000000
+      internalID: -5949183008005910501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba079b521a615f0800000000000000
+      internalID: -786263901532542115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8398134d87cec480800000000000000
+      internalID: -8876938405970668661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_27
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6124728088dd1920800000000000000
+      internalID: 2962762176335716715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_28
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4b4d4b353d0780800000000000000
+      internalID: -8715251175075918558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40ad1e8645ef8d0800000000000000
+      internalID: -2810716307990117132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_30
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2003726a67b034a0800000000000000
+      internalID: -6615586185061138388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_31
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 339
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857718fa760416b20800000000000000
+      internalID: 3125850430442141528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c1a13bd65c6070800000000000000
+      internalID: 8100945329163192650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0328d35e07437e80800000000000000
+      internalID: -8182117971140271348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_34
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f6cc9e1e747af00800000000000000
+      internalID: 1127949267295301466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffa6f7af920f8b20800000000000000
+      internalID: 3138730350041542644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_36
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215665d4a24c6c4e0800000000000000
+      internalID: -1961664901708094190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_37
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb00ea528eed2380800000000000000
+      internalID: -8994270637151220743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_38
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab56d664a672d950800000000000000
+      internalID: 6472366062956862379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_39
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 210
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e14c5b07c9ad180800000000000000
+      internalID: -9089780889994125761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 90
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5107618, y: 0.49225134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37ad7f276e4ea2e0800000000000000
+      internalID: -2112664970104821956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 71
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f9ca93223eeb7e0800000000000000
+      internalID: -1747709869237166179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_42
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 71
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90005035657b2ce20800000000000000
+      internalID: 3369457052614459401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 71
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe5d50fedfb43d10800000000000000
+      internalID: 2104517890125160126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 71
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a5ac8446d6fcbc0800000000000000
+      internalID: -3760666886345696663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-skeleton-krew-mega-drive-download-monster-baba-yaga-5b4ad3b8762f41.1036603415316305204841_45
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 71
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df1a9b641827f000800000000000000
+      internalID: 69568387417251801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
