@@ -67,6 +67,7 @@
     <Compile Include="Assets\Habilitats\Ability.cs" />
     <Compile Include="Assets\Habilitats\SpawnerAbilitat.cs" />
     <Compile Include="Assets\script\ChangeLevelBox.cs" />
+    <Compile Include="Assets\script\Coin.cs" />
     <Compile Include="Assets\script\Enemics\DistanceUnit.cs" />
     <Compile Include="Assets\script\Enemics\Enemic.cs" />
     <Compile Include="Assets\script\Enemics\EnemyFollow.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\script\LevelManager.cs" />
     <Compile Include="Assets\script\MenuManager.cs" />
     <Compile Include="Assets\script\Moneda.cs" />
+    <Compile Include="Assets\script\Money.cs" />
     <Compile Include="Assets\script\Pared.cs" />
     <Compile Include="Assets\script\PathFinding.cs" />
     <Compile Include="Assets\script\PlayerMovement.cs" />
