@@ -14,7 +14,7 @@ public class Jugador : MonoBehaviour
   
     Vector3 desplazamiento;
     Rigidbody2D rb;
-    //Quaternion rotacio;
+    Quaternion rotacio;
     GameObject spawner;
     public bool guitarra, arpa, bateria, trompeta;
     public int monedes;
@@ -24,7 +24,7 @@ public class Jugador : MonoBehaviour
     void Start()
     {
         arpa = true;
-        spawner = GameObject.Find("Spawner");
+        spawner = GameObject.Find("SpawnerPivot");
         spawner.transform.position = transform.position + Vector3.down;
         //move = Vector3.zero;
         animator = gameObject.GetComponent<Animator>();
@@ -42,17 +42,17 @@ public class Jugador : MonoBehaviour
         desplazamiento = moviment * speed;
 
         /*if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) {
-            Debug.Log("wasd");
+            Debug.Log("wasd");*/
 
-            //angle en que es maura. es crea aparti de el vector move
-            float agress = Vector3.SignedAngle(move, Vector3.down, new Vector3(1, -1, 0));
+        //angle en que es maura. es crea aparti de el vector move
+        float agress = Vector2.SignedAngle(moviment, Vector2.down);
 
             if (desplazamiento.x < 0)
             {
                 agress = -agress;
             }
 
-            //rotacio = Quaternion.Euler(0, 0, agress);*/
+            rotacio = Quaternion.Euler(0, 0, agress);
 
 
     }
@@ -61,12 +61,15 @@ public class Jugador : MonoBehaviour
     {
         //rb.MovePosition(rb.position + moviment * speed * Time.fixedDeltaTime);
         //es modifican la x i la y segons s'apretin les tecles corresponets.
+
         moviment = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 
         rb = this.gameObject.GetComponent<Rigidbody2D>();
 
         rb.velocity = new Vector3(desplazamiento.x * Time.deltaTime, desplazamiento.y * Time.deltaTime, 0);
         //nomes en mou en el eix x si y es 0 aixi la velocitat en les diagonals es igual.
+
+        spawner.transform.rotation = rotacio;
     }
 
     // Update is called once per frame

@@ -150,17 +150,17 @@ PrefabInstance:
     - target: {fileID: 5713500232161059818, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.6259
       objectReference: {fileID: 0}
     - target: {fileID: 5713500232161059818, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.6259
       objectReference: {fileID: 0}
     - target: {fileID: 5713500232161059818, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.6259
       objectReference: {fileID: 0}
     - target: {fileID: 8200843561160011531, guid: 6e43e62190abf3144825af14ab43b984,
         type: 3}
@@ -188,7 +188,8 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.9150943
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3425894351620578024, guid: 6e43e62190abf3144825af14ab43b984, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e43e62190abf3144825af14ab43b984, type: 3}
 --- !u!1 &2029598123742006141 stripped
 GameObject:

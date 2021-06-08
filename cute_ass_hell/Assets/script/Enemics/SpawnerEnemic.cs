@@ -6,7 +6,7 @@ public class SpawnerEnemic : MonoBehaviour
 {
     [SerializeField]
     private float spawnRadius = 7, time = 1.5f;
-    public float enemyCounter = 20;
+    public float enemyCounter = 40;
 
     public GameObject[] enemics;
     public GameObject boss;

@@ -25,11 +25,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107343978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.069, z: 0.57958984}
+  m_LocalScale: {x: 0.26000002, y: 0.26000002, z: 0.26000002}
   m_Children: []
-  m_Father: {fileID: 4901430713558774177}
+  m_Father: {fileID: 2123113122955609499}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &107343980
@@ -73,6 +73,37 @@ MonoBehaviour:
   toxic_shot: {fileID: -5913125264157459077, guid: 3e196d969c1806c458baec95b1579d1a,
     type: 3}
   rateFire: 2
+--- !u!1 &6777915569917778550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123113122955609499}
+  m_Layer: 0
+  m_Name: SpawnerPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2123113122955609499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777915569917778550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.8461537, y: 3.8461537, z: 3.8461537}
+  m_Children:
+  - {fileID: 107343979}
+  m_Father: {fileID: 4901430713558774177}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8970346171900928159
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +119,7 @@ GameObject:
   - component: {fileID: 6531739873653760117}
   - component: {fileID: -6858019698241813138}
   - component: {fileID: 6515283133374733244}
+  - component: {fileID: -4719433366092532808}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -106,7 +138,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.26, y: 0.26, z: 0.26}
   m_Children:
-  - {fileID: 107343979}
+  - {fileID: 2123113122955609499}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -174,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 300
-  vida: 1000
+  vida: 50
   guitarra: 0
   arpa: 0
   bateria: 0
@@ -261,3 +293,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-4719433366092532808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8970346171900928159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8270c18c11eb9c479b4ee82f1abe244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinAmount: 0
+  coinCounter: {fileID: 0}
