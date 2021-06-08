@@ -29,6 +29,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  attackDistance: 0.9
 --- !u!1001 &6124644445551274916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57,6 +58,21 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.15873085
       objectReference: {fileID: 0}
+    - target: {fileID: 397878363395632777, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853383494743419785, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853383494743419785, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_AutoRepath
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4104131585122525737, guid: 7db5b36624b7b574a9ac38de64245475,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -66,6 +82,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104131585122525737, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104131585122525737, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251641827249955432, guid: 7db5b36624b7b574a9ac38de64245475,
         type: 3}
@@ -151,6 +177,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353463073385651774, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353463073385651774, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353463073385651774, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353463073385651774, guid: 7db5b36624b7b574a9ac38de64245475,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882710588415905810, guid: 7db5b36624b7b574a9ac38de64245475,
         type: 3}
