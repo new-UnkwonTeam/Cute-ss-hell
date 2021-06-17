@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     public SpawnerEnemic spawner;
     public bool deathBoss;
     public Jugador jugador;
+    public Money coinAmount;
     public GameStates gameStates;
     public GameObject pantallaNivell, UItext, ChangeLevelBox;
 

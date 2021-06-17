@@ -14,12 +14,13 @@ public class SpawnerAbilitat : MonoBehaviour
     public Proyectil ice_shot;
     public Proyectil toxic_shot;
 
-    enum BUTTONS {
-        UP=0x01,
-        DOWN=0x02,
-        LEFT=0X04,
-        RIGHT=0x08,
-        COMBO_END=0xFFFFFFF,
+    enum BUTTONS
+    {
+        UP = 0x01,
+        DOWN = 0x02,
+        LEFT = 0X04,
+        RIGHT = 0x08,
+        COMBO_END = 0xFFFFFFF,
     };
 
     uint buttons = 0;
@@ -35,7 +36,7 @@ public class SpawnerAbilitat : MonoBehaviour
     List<uint[]> combos = new List<uint[]>();
 
 
-    public float rateFire=2;
+    public float rateFire = 2;
     float nextFire;
 
     // Start is called before the first frame update
@@ -44,14 +45,14 @@ public class SpawnerAbilitat : MonoBehaviour
 
         nextFire = 0;
 
-        combos.Add (new uint[] { 
-            (uint)BUTTONS.RIGHT, 0, 
-            (uint)BUTTONS.LEFT, 0, 
-            (uint)BUTTONS.RIGHT, 0, 
-            (uint)BUTTONS.LEFT, 0, 
+        combos.Add(new uint[] {
+            (uint)BUTTONS.RIGHT, 0,
+            (uint)BUTTONS.LEFT, 0,
+            (uint)BUTTONS.RIGHT, 0,
+            (uint)BUTTONS.LEFT, 0,
             (uint)BUTTONS.COMBO_END });
-        
-        combos.Add( new uint[] {
+
+        combos.Add(new uint[] {
             (uint)BUTTONS.UP, 0,
             (uint)BUTTONS.DOWN, 0,
             (uint)BUTTONS.UP, 0,
@@ -89,7 +90,7 @@ public class SpawnerAbilitat : MonoBehaviour
 
     bool DidButtonChange()
     {
-        if (prebuttons!=buttons)
+        if (prebuttons != buttons)
         {
             return true;
         }
@@ -106,27 +107,27 @@ public class SpawnerAbilitat : MonoBehaviour
                 {
                     comboIndex = 0;
                 }
-              
+
                 comboIndex = nodes[(int)comboIndex][buttons];
 
-                if (comboIndex >= (uint)BUTTONS.COMBO_END && Time.time>nextFire)
+                if (comboIndex >= (uint)BUTTONS.COMBO_END && Time.time > nextFire)
                 {
-                    Debug.Log(messages[comboIndex-(uint)BUTTONS.COMBO_END]);
-                    if (comboIndex==268435455)
+                    Debug.Log(messages[comboIndex - (uint)BUTTONS.COMBO_END]);
+                    if (comboIndex == 268435455)
                     {
                         nextFire = Time.time + rateFire;
                         disparar_fire(transform.position, transform.rotation);
                         comboIndex = 0;
 
                     }
-                    if (comboIndex== 268435456)
-                        {
+                    if (comboIndex == 268435456)
+                    {
                         nextFire = Time.time + rateFire;
                         disparar_toxic(transform.position, transform.rotation);
-                            comboIndex = 0;
+                        comboIndex = 0;
 
                     }
-                    if (comboIndex== 268435457)
+                    if (comboIndex == 268435457)
                     {
                         nextFire = Time.time + rateFire;
                         disparar_ice(transform.position, transform.rotation);
@@ -146,7 +147,7 @@ public class SpawnerAbilitat : MonoBehaviour
             }
         }
     }
-      
+
 
 
     void BuildNodes()
@@ -185,7 +186,7 @@ public class SpawnerAbilitat : MonoBehaviour
     {
         prebuttons = 0;
         buttons = 0;
-}
+    }
 
 
     // Update is called once per frame

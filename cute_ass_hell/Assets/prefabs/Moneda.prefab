@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 503355535853168119}
   - component: {fileID: 503355535853168118}
   - component: {fileID: 1354921952232173688}
-  - component: {fileID: -5892766646197727039}
   - component: {fileID: -8923288364345401566}
+  - component: {fileID: -5814469855382762392}
+  - component: {fileID: 1407354259070835514}
   m_Layer: 0
   m_Name: Moneda
   m_TagString: Moneda
@@ -100,18 +101,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-5892766646197727039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503355535853168113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bd13465318df124cbcd83193d3e8384, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &-8923288364345401566
 AudioSource:
   m_ObjectHideFlags: 0
@@ -208,3 +197,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5814469855382762392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503355535853168113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b02fe7db360704c9687857aa762f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1407354259070835514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503355535853168113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd13465318df124cbcd83193d3e8384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -6,13 +6,14 @@ public class Enemic : MonoBehaviour
 {
 
     //vida del enemic
-    public int vida;
+    public int vida=50;
     public int qualityScore;
     public bool bateria = false;
     public GameObject moneda;
     public EnemyStates currrentStates;
     Animator animator;
     // Start is called before the first frame update
+
     void Start()
     {
         //animator = gameObject.GetComponent<Animator>();

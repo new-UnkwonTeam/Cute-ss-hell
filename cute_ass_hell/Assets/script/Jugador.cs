@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //classe corresponent a l'objecte jugador.
 public class Jugador : MonoBehaviour
@@ -8,10 +9,10 @@ public class Jugador : MonoBehaviour
     //velocitat amb la que es mou el jugador, es determina desde unity.
     public float speed;
     //vida del Jugador
-    public int vida;
-
+    public int vida=50;
+    public int startHealth=50;
     Vector2 moviment;
-  
+
     Vector3 desplazamiento;
     Rigidbody2D rb;
     Quaternion rotacio;
@@ -19,6 +20,7 @@ public class Jugador : MonoBehaviour
     public bool guitarra, arpa, bateria, trompeta;
     public int monedes;
     public Animator animator;
+    internal int startHealthvida=5000;
 
     // Start is called before the first frame update
     void Start()
@@ -47,12 +49,12 @@ public class Jugador : MonoBehaviour
         //angle en que es maura. es crea aparti de el vector move
         float agress = Vector2.SignedAngle(moviment, Vector2.down);
 
-            if (desplazamiento.x < 0)
-            {
-                agress = -agress;
-            }
+        if (desplazamiento.x < 0)
+        {
+            agress = -agress;
+        }
 
-            rotacio = Quaternion.Euler(0, 0, agress);
+        rotacio = Quaternion.Euler(0, 0, agress);
 
 
     }
@@ -73,13 +75,27 @@ public class Jugador : MonoBehaviour
     }
 
     // Update is called once per frame
-    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("El jugador ha colisionat amb " + collision.otherCollider.name);
 
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss")) RestarVida(1);
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss"))
+        {
+            Debug.Log("Take dmg al entrar" + vida / startHealth);
+            RestarVida((int)1);
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Debug.Log(" toca ");
+
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss"))
+        {
+            Debug.Log("Take dmg al estar " + vida / startHealth);
+            RestarVida((int)0.5);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

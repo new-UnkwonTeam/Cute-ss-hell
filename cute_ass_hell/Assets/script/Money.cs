@@ -2,32 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
-public class ScoreTextScript : MonoBehaviour
+public class Money : MonoBehaviour
 {
-    public int coinAmount;
-    public TMP_Text coinCounter;
+    public static int coinAmount;
+    Text coinCounter;
    
-
     // Start is called before the first frame update
     void Start()
     {
-
-        coinAmount = 0;
+        coinCounter = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        coinCounter.text = "Monedes: " + coinAmount.ToString();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.GetComponent<Coin>())
+        if (coinCounter)
         {
-            coinAmount += 1;
+            coinCounter.text = "Monedes: " + coinAmount.ToString();
         }
     }
-}
+ }
